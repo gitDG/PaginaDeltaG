@@ -490,7 +490,7 @@ background: orange;
 	background-color:green;
 
 	width: 250px;
-	height: 300px;
+	height: 290px;
 
 	border-radius: 50%;
 	border: 1px outset #26FF29;
@@ -517,7 +517,7 @@ background: orange;
 	background-color:green;
 
 	width: 250px;
-	height: 300px;
+	height: 290px;
 
 	border-radius: 50%;
 	/*border: 5px inset  #006904;*/
@@ -733,6 +733,19 @@ background: orange;
 
 }
 
+.Art3_titulo{
+
+	font-family: robot_thin;
+	padding-left: 3%;
+
+}
+
+.Art3_titulo2{
+
+	font-family: robot_thin;
+	padding-left: 3%;
+}
+
 .Art3_Cuerpo1{
 
 	width:55%;
@@ -749,6 +762,9 @@ background: orange;
 	width:45%;
 	height: 50%;
 	margin-top: 8%;
+
+	border: 3px outset #26FF29;
+	/*
 	background-image: 
     repeating-linear-gradient(
       45deg,
@@ -757,6 +773,8 @@ background: orange;
       red 10px,
       orange 30px 
     );
+    */
+
 	float: left;
 
 }
@@ -768,9 +786,14 @@ background: orange;
 	margin-left: 30%;
 	width:70%;
 	height:100%;
-	background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+	/*background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);*/
+	background-color: blue;
+	background-image: url("../images/pro3.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
 
-
+	border: 3px outset #FF26D6;
 
 }
 
@@ -781,6 +804,7 @@ background: orange;
 	padding-left: 25%;
 	padding-right: 20%;
 	padding-top:2%;
+
 }
 
 .Cuerpo2_ContHijo1{
@@ -789,14 +813,22 @@ background: orange;
 	padding:0;
 	width:70%;
 	height:100%;
+	background-color: blue;
+	background-color: blue;
+	background-image: url("../images/pro1.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
 
+	border: 3px outset #FF26D6;
+	/*
 	background: 
     repeating-radial-gradient(
       circle at 0 0, 
       #eee,
       #ccc 50px
     );	
-
+	*/
 }
 
 .Cuerpo2_ContHijo2{
@@ -806,6 +838,7 @@ background: orange;
 	width:45%;
 	height: 50%;
 	margin-top: 8%;
+	/*
 	background-image:
     linear-gradient(
       to right, 
@@ -814,8 +847,9 @@ background: orange;
       rgb(255, 255, 0), 
       green
     );
+    */
 	float: right;
-
+	border: 3px outset #26FF29;
 }
 
 /* ----- Diseño Footer ----- */
