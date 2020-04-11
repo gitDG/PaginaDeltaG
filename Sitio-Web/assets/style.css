@@ -737,6 +737,7 @@ background: orange;
 
 	font-family: robot_thin;
 	padding-left: 3%;
+	color: white;
 
 }
 
@@ -744,6 +745,7 @@ background: orange;
 
 	font-family: robot_thin;
 	padding-left: 3%;
+	color: white;
 }
 
 .Art3_Cuerpo1{
@@ -753,6 +755,7 @@ background: orange;
 	padding-left: 25%;
 	padding-right: 20%;
 	padding-bottom: 2%;
+
 }
 
 .Cuerpo1_ContHijo1{
@@ -777,6 +780,7 @@ background: orange;
 
 	float: left;
 
+
 }
 
 .Cuerpo1_ContHijo2{
@@ -797,6 +801,8 @@ background: orange;
 
 }
 
+
+
 .Art3_Cuerpo2{
 
 	width:55%;
@@ -815,7 +821,7 @@ background: orange;
 	height:100%;
 	background-color: blue;
 	background-color: blue;
-	background-image: url("../images/pro1.jpg");
+	background-image: url("../images/img_educacion1.jpg");
 	background-repeat: no-repeat;
 	background-size:cover;
 	background-position:center;
@@ -852,6 +858,31 @@ background: orange;
 	border: 3px outset #26FF29;
 }
 
+/*-------------Para los textos-----------------*/
+.Cuerpo1_ContHijo1,.Cuerpo2_ContHijo2{
+
+	display: grid;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.ContHijo1_titulo1{
+
+	font-size: 30px;
+	color: #26FF29;
+	font-family: robot_thin;
+	height: 50px;
+}
+
+.ContHijo1_titulo2{
+
+	font-size: 15px;
+	color: white;
+	font-family: robot_thin;
+	height: 50px;
+}
+
 /* ----- Diseño Footer ----- */
 footer {
 
@@ -864,7 +895,7 @@ footer {
 	height: 100%;
 	background-image: url("../images/footer_img.jpg");
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: 100% 100%;
 	background-position:center;
 }
 
@@ -872,7 +903,7 @@ footer {
 
 	width: 100%;
 	height:100%;
-	background-image: radial-gradient( circle farthest-corner at -3.1% -4.3%,  rgba(57,255,186,0.9) 0%, rgba(21,38,82,0.9) 90% );
+	background-image: radial-gradient( circle farthest-corner at -3.1% -4.3%,  rgba(57,255,186,0.1) 0%, rgba(21,38,82,0.1) 90% );
 
 }
 
