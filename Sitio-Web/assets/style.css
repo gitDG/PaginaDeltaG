@@ -892,20 +892,96 @@ footer {
 
 .footer_Padre{
 
-	height: 100%;
-	background-image: url("../images/footer_img.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position:center;
+
+}
+
+.footer_Padre{
+
+	width: 100%;
+	height:100%;
+	background-color: #FF26D6;
+	background-image:
+    linear-gradient(
+      to bottom, 
+      #ff499a,
+      #740091
+    );
+
+    display: inline-block;
 }
 
 .footer_img{
 
 	width: 100%;
-	height:100%;
-	background-image: radial-gradient( circle farthest-corner at -3.1% -4.3%,  rgba(57,255,186,0.1) 0%, rgba(21,38,82,0.1) 90% );
+	height:30%;
+	background-image: url("../images/footer_img.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position:top;
 
 }
+
+
+.footer_hijo1, .footer_hijo2{
+
+	width: 49%;
+	height: 70%;
+	display: inline-block;
+	background-color: red;
+	vertical-align:top;
+}
+
+/*--------------footer hijo1--------------------*/
+
+.hijo1_1, .hijo1_2{
+
+	height: 50%;
+	width: 100%;
+	background-color: blue;
+
+}
+
+.hijo1_1{
+
+	background-image: url("../images/Logo.png");
+	background-repeat: no-repeat;
+	background-size: 60% 60%;
+	background-position: center;
+
+}
+
+.hijo1_2{
+
+	position: relative;
+
+}
+
+.extra1{
+
+	position: absolute;
+	bottom: 15px;
+	left: 16px;
+	
+
+}
+/*--------------footer hijo2--------------------*/
+
+.hijo2_1, .hijo2_2{
+
+	height: 100%;
+	width: 49%;
+	background-color: yellow;
+	display: inline-block;
+
+}
+
+.cont_1, .cont_2{
+
+	height: 25%;
+	width: 100%;
+	background-color: purple;
+}
+
 
 /*------------------fuentes-----------------------------*/
 
