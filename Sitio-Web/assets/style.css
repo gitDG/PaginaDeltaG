@@ -40,15 +40,19 @@ header {
   	/*background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);*/
 	/*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; */
 	/*	background-image: linear-gradient(to right, #434343 0%, black 100%);*/
-/*
-background: #757F9A;  /* fallback for old browsers */
-/*
-background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
-/*
-background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*
+	background: #757F9A;  /* fallback for old browsers */
+	/*
+	background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+	/*
+	background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-	background-color:#1D1D1C;
+	background-color:black;
 
+	background-image: url("../images/Portada.png");
+	background-repeat: no-repeat;
+	background-size: 100% 80%;
+	background-position: top;
  }
 
 
@@ -62,7 +66,7 @@ background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, F
 	width: 10%;
 	height: 60px;
 	float: left;
-	display: block;
+ 	display: block;
 }
 
 .Logo img {
@@ -113,7 +117,7 @@ header .NavBar .Menu li:hover{
 	float: right;
 	color: white;
 }
-
+	/*---------------------------------*/
 .Inicio {
 
 	color: white;
@@ -121,14 +125,27 @@ header .NavBar .Menu li:hover{
 	padding-top: 100px;
 }
 
+.Inicio2 {
+
+	text-align: center;
+	padding-top: 60px;
+}
+
 .Inicio h1 {
 
 	font-family: 'Acme', sans-serif;
 	font-weight: bold;
 	font-size: 70px;
-	/*color: #1278BF; 
-	text-shadow: 0px 0px 9px #508AD3;*/
-	text-shadow: 0 0 0.2em #8F7
+	text-shadow: 0 0 0.1em #007300;
+
+}
+
+.Inicio2 h1 {
+
+	font-family: actor_regular;
+	color: white;
+	text-shadow: 0px 0px 9px #00A4FF;
+
 }
 
 #abajo{
@@ -137,7 +154,7 @@ header .NavBar .Menu li:hover{
   height: 260%;
   background-color: white;
   border-radius: 100%;
-  top: 20%;
+  top: 25%;
   left: -80%;
   right: 0;
   position: relative;
@@ -146,6 +163,7 @@ header .NavBar .Menu li:hover{
 
 /* ----- Diseño Cuerpo ----- */
 section {
+
 	height: 100%;
 
 }
@@ -158,7 +176,7 @@ section {
 .Art1_article1{
 
 	background-color: white;
-	height: 50%;
+	height: 40%;
 }
 
 
@@ -175,40 +193,23 @@ section {
 	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 36%, rgba(209,207,209,1) 80%, rgba(209,207,209,1) 98%, rgba(209,207,209,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1cfd1', GradientType=0 );
 
-
 }
 
 .Art1_titulo{
 
 	width: 100%;
-	padding-bottom: 2px;
-	padding-top: 15px;
+	padding-bottom: 3%;
+	padding-top: 3%;
 	text-align: center;
 }
 
 .Art1 h2{
 
-		font-size: 42px;
-	    font-family: robot_thin;
-
+		font-size: 43px;
 
 }
 
-.Art1_titulo2{
 
-	padding-left: 10%;
-	padding-right: 10%;
-	padding-bottom:10px;
-	padding-top: 2px;
-}
-
-.Art1 h1{
-
-		text-align: center;
-		font-size: 42px;
-		font-family: robot_thin;
-	    
-}
 
 .Art1_Cuerpo{
 
@@ -221,8 +222,8 @@ section {
 
 .Art1_Cuerpo h3{
 
-		text-align:justify;
-		font-size: 29px;
+		text-align:left;
+		font-size: 20px;
 	    font-family: robot_thin;
 }
 
@@ -251,13 +252,91 @@ section {
 
 }
 
-/*------article 2-----*/
+/*-------aside de articulo 1------*/
+
+.Art1_aside{
+
+	position:relative;
+	width: 30%;
+	background-color: white;
+	float: left;
+	height: 100%;
+
+}
+
+.aside_img1{
+
+	background-color:green;
+
+	width: 87%;
+	height: 51%;
+
+	border-radius: 50%;
+	border: 3px solid black;
+	/*border: 5px inset #006904;*/
+	/*position: absolute;*/
+    /*left: calc(50% - 140px);*/
+
+    margin: 0;
+   	position: absolute;
+    top: 5%;   
+    left: 75%; 
+    margin-right: -75%;                     
+    transform: translate(-75%, -5%);
+
+    background-image: url("../images/img_educacion3.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position:center;
+
+}
+
+.aside_img2{
+
+	background-color:green;
+
+	width: 69%;
+	height: 40%;
+
+	border-radius: 50%;
+	/*border: 5px inset  #006904;*/
+	border: 3px solid black;
+	/*position: absolute;*/
+    /*left: calc(50% - 140px);*/
+    margin: 0;
+   	position: absolute;
+    top: 95%;   
+    left: -2%; 
+    margin-right: -5%;                     
+    transform: translate(-5%, -95%);
+    background-image: url("../images/img_educacion4.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position:center;
+
+}
+
+
+/*------article2 Art1 ----*/
 
 .Art1_article2{
 
-	height: 50%;
+	height: 60%;
 	position: relative;
 	background-color: white;
+}
+
+.article2_titulo{
+
+	width: 100%;
+	text-align: center;
+}
+
+.article2_titulo h1{
+
+		font-size: 24px;
+	    font-family: robot_thin;
+
 }
 
 .Lienzo {
@@ -277,38 +356,22 @@ section {
 	display: inline-block;
 	width: 40%;
 	height: 20%;
+	border: 3px solid rgba(63,233,242,1);
+	background-color:#F1FFFF;
 
-	background-color:green;
-	border: 2px solid #c4ebff;
+	-webkit-box-shadow: 6px 7px 19px -3px   rgba(2,125,201,1);
+	-moz-box-shadow: 6px 7px 19px -3px   rgba(2,125,201,1);
+	box-shadow: 6px 7px 19px -3px  rgba(2,125,201,1);
+
 	color:white;
 
 	border-radius: 18px;
-	background: #fff;
     margin-right: 25px;
 
    	text-align: center;
+   	color :black;
+
 }
-
-.TargetF1C1{
-
-	background-color: #f59f3d;
-}
-
-.TargetF1C2{
-
-	background-color: #3b93f7;
-}
-
-.TargetF2C1{
-
-	background-color: #3df56e;
-}
-
-.TargetF2C2{
-
-	background-color: #f54444;
-}
-
 
 .TargetsF1{
 
@@ -323,38 +386,6 @@ section {
 	padding-bottom: 3%;
 }
 
-.ColorTF1C1, .ColorTF1C2, .ColorTF2C1, .ColorTF2C2 {
-
-	width: 100%;
-	height: 10%;
-	border-top-left-radius: 18px;
-	border-top-right-radius: 18px;
-
-}
-
-.ColorTF1C1{
-
-/*background: rgb(255,0,224);*/
-background: orange;
-}
-
-.ColorTF1C2 {
-
-	background: green;
-
-}
-
-.ColorTF2C1 {
-
-	background: blue;
-
-}
-
-.ColorTF2C2 {
-
-	background: rgb(0,255,220);
-
-}
 
 .InfoTF1C1, .InfoTF1C2, .InfoTF2C1, .InfoTF2C2 {
 
@@ -363,30 +394,8 @@ background: orange;
 	padding-top: 1%;
 	width: 90%;
 	height: 65%;
+	background-color:#F1FFFF;
 
-	background-color: white;
-
-}
-
-.InfoTF1C1{
-
-	background-color: #f59f3d
-}
-
-.InfoTF1C2{
-
-	background-color: #3b93f7;	
-}
-
-
-.InfoTF2C1{
-
-	background-color: #3df56e;	
-}
-
-.InfoTF2C2{
-
-	background-color: #f54444;	
 }
 
 .PieTF1C1, .PieTF1C2, .PieTF2C1, .PieTF2C2 {
@@ -396,30 +405,10 @@ background: orange;
 	margin-left: 5%;
 	background: rgba(242,242,242,1);
 
-	background-color: #3b93f7;
+	background-color:#F1FFFF;
 
 }
 
-.PieTF1C1{
-
-	background-color: #f59f3d
-}
-
-.PieTF1C2{
-
-	background-color: #3b93f7;
-}
-
-.PieTF2C1{
-
-	background-color: #3df56e;
-
-}
-
-.PieTF2C2{
-
-	background-color: #f54444;
-}
 
 .Pie-Izq {
 
@@ -470,82 +459,21 @@ background: orange;
 
 .TargetF1C1:hover, .TargetF1C2:hover, .TargetF2C1:hover, .TargetF2C2:hover{
 
-	box-shadow: 4px 4px 10px #666;
-}
-
-
-/*-------aside de articulo 1------*/
-.Art1_aside{
-
-	position:relative;
-	width: 30%;
-	background-color: white;
-	float: left;
-	height: 100%;
-
-}
-
-.aside_img1{
-
-	background-color:green;
-
-	width: 250px;
-	height: 290px;
-
-	border-radius: 50%;
-	border: 1px outset #26FF29;
-	/*border: 5px inset #006904;*/
-	/*position: absolute;*/
-    /*left: calc(50% - 140px);*/
-
-    margin: 0;
-   	position: absolute;
-    top: 5%;   
-    left: 75%; 
-    margin-right: -75%;                     
-    transform: translate(-75%, -5%);
-
-    background-image: url("../images/img_educacion.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position:center;
-
-}
-
-.aside_img2{
-
-	background-color:green;
-
-	width: 250px;
-	height: 290px;
-
-	border-radius: 50%;
-	/*border: 5px inset  #006904;*/
-	border: 1px outset #26FF29;
-	/*position: absolute;*/
-    /*left: calc(50% - 140px);*/
-    margin: 0;
-   	position: absolute;
-    top: 95%;   
-    left: 5%; 
-    margin-right: -5%;                     
-    transform: translate(-5%, -95%);
-
-    background-image: url("../images/img_educacion2.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position:center;
+	-webkit-box-shadow: 1px 1px 1px 3px rgba(63,233,242,1);
+	-moz-box-shadow: 1px 1px 1px 3px rgba(63,233,242,1);
+	box-shadow: 1px 1px 2px 2px rgba(63,233,242,1);
 
 }
 
 
-/*----------Articulo 2------------*/
+
+/*----------Articulo 2----------------------------*/
 
 .Art2{
 	
 	background-color: #f3f3f3;
 
-/*	background: rgba(255,255,255,1);
+	/*	background: rgba(255,255,255,1);
 	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 36%, rgba(209,207,209,1) 80%, rgba(209,207,209,1) 98%, rgba(209,207,209,1) 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(36%, rgba(255,255,255,1)), color-stop(80%, rgba(209,207,209,1)), color-stop(98%, rgba(209,207,209,1)), color-stop(100%, rgba(209,207,209,1)));
 	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 36%, rgba(209,207,209,1) 80%, rgba(209,207,209,1) 98%, rgba(209,207,209,1) 100%);
@@ -553,11 +481,11 @@ background: orange;
 	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 36%, rgba(209,207,209,1) 80%, rgba(209,207,209,1) 98%, rgba(209,207,209,1) 100%);
 	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 36%, rgba(209,207,209,1) 80%, rgba(209,207,209,1) 98%, rgba(209,207,209,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d1cfd1', GradientType=0 );
-/*
+	/*
 	/*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;*/
 	/*background-image: linear-gradient(to right, #434343 0%, black 100%);*/
 	display: block;
-	clear:both;
+	clear: both;
 }
 
 .Art2_titulo{
@@ -593,9 +521,10 @@ background: orange;
 	margin-right: 2%; 
 	margin-left: 2%;
 	width: 20%;
-	height: 100%;
+	height: 90%;
 	background-color: #f3f3f3;
 	display: inline-block;
+	vertical-align:top;
 }
 
 /*----------------Para las imagenes----------------------*/
@@ -604,8 +533,7 @@ background: orange;
 .ContHijo1_img{
 
 
-	background-color: #26FF29;
-	height:50%;
+	height:35%;
 	position: relative; /*para centrar el div interior*/
 
 	/*background-image: linear-gradient(135deg, #FEED07 0%, #FE6A50 5%, #ED00AA 15%, #2FE3FE 50%, #8900FF 100%);*/
@@ -618,23 +546,16 @@ background: orange;
 
 }
 
-.ContHijo1_img:hover{
 
-	animation-duration: 2s;
- 	animation-name: rotate;
-  	animation-iteration-count: 1;
-
-}
 
 .img_1, .img_2, .img_3, .img_4{
 
-	background-color:green;
-	height:90%;
-	width: 90%;
+	height:100%;
+	width: 60%;
 
 
 	border-radius: 50%;
-	border: 2px outset #03db5d;
+	border: 0px outset #03db5d;
 	/*position: absolute;*/
     /*left: calc(50% - 140px);*/
 
@@ -649,43 +570,49 @@ background: orange;
 
 .img_1{
 
-	background-image: url("../images/mision.jpg");
+	background-image: url("../images/idea.png");
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: 70% 70%;
 	background-position:center;
 
 }
 
 .img_2{
 
-	background-image: url("../images/objetivo.jpg");
+	background-image: url("../images/teacher2.png");
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: 70% 70%;
 	background-position:center;
 
 }
 
 .img_3{
 
-	background-image: url("../images/vision.jpg");
+	background-image: url("../images/diploma.png");
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: 70% 70%;
 	background-position:center;
 
 }
 
 .img_4{
 
-	background-image: url("../images/valores1.PNG");
+	background-image: url("../images/team.png");
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: 70% 70%;
 	background-position:center;
 
 }
 
-@keyframes rotate {
-    0% {transform:rotate(0deg);}
-    100% {transform:rotate(360deg);}
+.img_1:hover{ background-image: url("../images/idea2.png"); }
+.img_2:hover{background-image: url("../images/teacher22.png");}
+.img_3:hover{background-image: url("../images/diploma2.png");}
+.img_4:hover{background-image: url("../images/team2.png");}
+
+.img_1:hover, .img_2:hover, .img_3:hover, .img_4:hover{
+
+
+	background-color: rgb(29,29,29);
 }
 
 
@@ -694,21 +621,23 @@ background: orange;
 
 .ContHijo1_text1{
 
-	height: 15%;
+	height: 35%;
 	background-color: #f3f3f3;
+	border-top: 3px solid #575858;
+
 }
 
 .ContHijo1_text2{
 
-	height: 35%;
+	height: 30%;
 	background-color: #f3f3f3;
 }
 
 .ContHijo1_text1 p{
 
  	padding-top: 5%;
-	font-family: actor_regular;
-	font-size: 30px;
+	font-family: averia_regular;
+	font-size: 25px;
 	text-align: center;
 
 }
@@ -716,7 +645,7 @@ background: orange;
 .ContHijo1_text2 p{
 
  
-	font-family: actor_regular;
+	font-family: galdeano_regular;
 	font-size: 15px;
 
 	text-align: center;
@@ -724,20 +653,23 @@ background: orange;
 }
 
 
+
+
 /*--------------------Articulo3-------------------------*/
 
 .Art3{
 
-/*	background-color: #FEF9F2;*/
+	/*	background-color: #FEF9F2;*/
 	background-color: black;
 	background-color: #30272D;
 	background-color: white;
+	clear: both;
 }
 
 .Art3_titulo{
 
 	padding-top: 10px;
-	font-family: robot_thin;
+	font-family: actor_regular;
 	padding-left: 3%;
 	color: white;
 	color:black;
@@ -771,19 +703,17 @@ background: orange;
 	width:45%;
 	height: 50%;
 	margin-top: 8%;
-
 	border: 3px outset #26FF29;
-	/*
-	background-image: 
-    repeating-linear-gradient(
+	  /*
+	  background-image: 
+	  repeating-linear-gradient(
       45deg,
       orange,
       yellow 10px,
       red 10px,
       orange 30px 
-    );
-    */
-
+    	);
+      */
 	float: left;
 
 
@@ -798,9 +728,9 @@ background: orange;
 	height:100%;
 	/*background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);*/
 	background-color: blue;
-	background-image: url("../images/pro3.jpg");
+	background-image: url("../images/img_pro1.png");
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: 100% 125%;
 	background-position:center;
 
 	border: 3px outset #FF26D6;
@@ -826,9 +756,9 @@ background: orange;
 	width:70%;
 	height:100%;
 	background-color: blue;
-	background-image: url("../images/img_educacion1.jpg");
+	background-image: url("../images/pro3.png");
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size: 100% 112%;
 	background-position:center;
 
 	border: 3px outset #FF26D6;
@@ -863,7 +793,7 @@ background: orange;
 	border: 3px outset #26FF29;
 }
 
-/*-------------Para los textos-----------------*/
+/*-------Para los textos---------*/
 .Cuerpo1_ContHijo1,.Cuerpo2_ContHijo2{
 
 	display: grid;
@@ -874,7 +804,7 @@ background: orange;
 
 .ContHijo1_titulo1{
 
-	font-size: 30px;
+	font-size: 31px;
 	color: #26FF29;
 	font-family: robot_thin;
 	height: 50px;
@@ -883,18 +813,139 @@ background: orange;
 
 .ContHijo1_titulo2{
 
-	font-size: 16px;
-	color: white;
-	color:black;
-	font-family: robot_thin;
+	color: #00DADE;
+	font-size: 17px;
+	font-family: averia_regular;
+
 	height: 50px;
 }
+
+
+/*----------Articulo 4----------------------------*/
+.Art4{
+
+	background-color: red;
+
+}
+
+.Art4_Cuerpo{
+
+	width: 90%;
+	height: 90%;
+	padding-top: 4%;
+	padding-left: 5%;
+	padding-right: 5%;
+	background-color: purple;
+
+}
+
+
+.Art4_Hijo1{
+	margin:0;
+	padding: 0;
+	margin-top: 11%;
+	float: right;
+	width: 30%;
+	height:55%;
+	background-color: orange;
+
+}
+
+
+.Art4_Hijo2{
+
+	width: 70%;
+	height: 100%;
+	margin-right: 30%;
+	background-color: green;
+	text-align: right;
+}
+
+#Hijo1_img p{
+
+	width: 90%;
+	padding-bottom: 6%;
+}
+
+.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4{
+
+	height: 90%;
+	width: 23%;
+	margin-right: 1%;
+	background-color: yellow;
+	display: inline-block;
+
+}
+
+
+.Hijo2_img1{
+
+	background-image: url("../images/Nosotros4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+
+.Hijo2_img2{
+
+	background-image: url("../images/Nosotros1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+
+}
+
+.Hijo2_img3{
+
+	background-image: url("../images/Nosotros2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 40% 50%;
+}
+
+.Hijo2_img4{
+
+	background-image: url("../images/Nosotros3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 55% 50%;
+}
+
+
+.Hijo1_text1{
+
+	font-family: anton_regular;
+	font-size: 70px;
+}
+
+.Hijo1_text2{
+
+	font-size: 35px;
+
+}
+
+.Hijo1_text3{
+
+	font-size: 20px;
+
+}
+
 
 /* --------- Diseño Footer ---------------------- */
 footer {
 
 	height: 100%;
-	
+	width: 100%;
+
+    display: inline-block;
+
+
+
+	background-color: #279454;
+	background-image: linear-gradient(180deg, #131D14 0%, #000000 24%, #000000 49%, #000000 75%, #000000 100%);
+
+
 }
 
 
@@ -902,25 +953,19 @@ footer {
 
 	width: 100%;
 	height:100%;
-	background-color: #FF26D6;
-	background-image:
-    linear-gradient(
-      to bottom, 
-      #ff499a,
-      #740091
-    );
 
-    display: inline-block;
+	background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+	background-image: url("../images/footer_img.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:top;
 }
 
 .footer_img{
 
 	width: 100%;
 	height:30%;
-	background-image: url("../images/footer_img.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-position:top;
 
 }
 
@@ -965,7 +1010,7 @@ footer {
 	bottom: 30%;
 	left: 9%;
 
-	font-family: robot_thin;
+	font-family: robot_condensed;
 	font-size: 16px;
 	color: white;
 
@@ -980,7 +1025,6 @@ footer {
 	display: inline-block;
 	vertical-align: top;
 
-
 }
 
 .hijo2_1_titulo1,.hijo2_1_titulo2{
@@ -994,6 +1038,7 @@ footer {
 	align-content: center;
 	border-bottom: 2px solid white;
 
+	font-size: 28px;
 	font-family: robot_thin;
 	font-weight: bold;
 	color: white;
@@ -1005,7 +1050,8 @@ footer {
 	height: 69%;
 	width: 100%;
 
-	font-family: robot_thin;
+	font-size: 16px;
+	font-family: robot_condensed;
 	color: white;
 }
 
@@ -1013,8 +1059,8 @@ footer {
 /*------------------fuentes-----------------------------*/
 
 @font-face {
-  font-family: robot_black;
-  src: url("../fonts/Roboto-Bold.ttf");
+  font-family: robot_condensed;
+  src: url("../fonts/RobotoCondensed-Light.ttf");
 }
 
 @font-face {
@@ -1029,26 +1075,1128 @@ footer {
 	src: url("../fonts/Actor-Regular.ttf");
 }
 
+@font-face{
+
+	font-family: averia_regular;
+	src:  url("../fonts/AveriaSerifLibre-Regular.ttf");
+
+}
+
+@font-face{
+
+	font-family: galdeano_regular;
+	src: url("../fonts/Galdeano-Regular.ttf");
+
+}
+
+@font-face{
+
+	font-family: anton_regular;
+	src: url("../fonts/Anton-Regular.ttf");
+
+}
+
 		/* ---------- Responsive ---------- */
 /* Dispositivos Muy Pequeños (Telefónos Menor A 360px) */
 @media(max-width:360px){
+
+	.Inicio2{
+
+		padding-top: 0px;
+	}
+
+	/*----------Art1---------------*/
+	.Art1 {
+
+		width: 100%;
+
+	}
+
+	.Art1_aside{
+
+		display: none;
+
+	}
+
+
+	.Art1_aside{
+
+		display: none;
+
+	}
+
+
+	.Art1_article1{
+
+		height: 32%;
+	}
+
+	.Art1_article2{
+		
+		height: 68%;
+	}
+
+	.Art1 h2{
+
+		font-size: 32px;
+
+	}
+
+
+	.Art1 h1{
+
+		font-size: 32px;
+
+	}
+
+	.Art1_Cuerpo h3{
+
+		font-size: 16px;
+
+	}
+
+	.article2_titulo{
+
+		display: none;
+
+	}
+
+	/*---art1 cursos---*/
+
+	.Lienzo {
+
+		width: 100%;
+		height: 100%;
+
+	}
+
+	.TargetF1C1, .TargetF1C2, .TargetF2C1, .TargetF2C2 {
+
+		margin-top: 0%;
+		display:block;
+		width: 97%;
+
+	}
+
+
+	.TargetsF1{
+
+		padding-top: 0%;
+
+	}
+
+	.TargetsF1, .TargetsF2 {
+
+		text-align: center; /*para alinear los div y el texto*/
+
+		padding-bottom: 0%;
+	}
+
+	.InfoTF1C1 p, .InfoTF1C2 p, .InfoTF2C1 p, .InfoTF2C2 p{
+
+		font-size: 20px;
+
+	}
+
+	/*-----------art2------------*/
+
+	.Art2_titulo {
+
+		height: 5%;
+	 
+	}
+
+	.Art2_titulo h1{
+
+		padding-top: 0px;
+		font-size: 17px;
+
+	}
+
+	.Art2_ContPadre{
+
+		padding: 0;
+		height: 95%;
+	}
+
+	.Art2_ContHijo1, .Art2_ContHijo2, .Art2_ContHijo3, .Art2_ContHijo4{
+
+		margin-right: 0%; 
+		margin-left: 0%;
+		width: 100%;
+		height: 25%;
+		display: block;
+
+	}
+
+	.Art2_ContHijo1{
+
+		padding-top: 5%;
+
+	}
+
+	/*----------------Para las imagenes----------------------*/
+
+
+	.ContHijo1_img{
+
+		height:80%;
+		width:40%;
+		display: inline-block;
+
+	}
+
+
+	.img_1, .img_2, .img_3, .img_4{
+
+		height:90%;
+		width: 90%;
+
+
+	}
+
+	.img_1:hover, .img_2:hover, .img_3:hover, .img_4:hover{
+
+		border-bottom: 2px solid #03db5d;
+		border-left: 2px solid #00D8FF;
+		border-top: 2px solid #DB00FF;
+		border-right: 2px solid #FB004F;
+
+	}	
+
+	/*---Contenedortextos------*/
+
+
+	.ContHijo1_text1{
+		height: 80%;
+		width: 45%;
+		background-color: #f3f3f3;
+		display: inline-block;
+		vertical-align: top;
+		border-top: 3px solid #575858;
+	}
+
+	.ContHijo1_text2{
+
+		display: none;
+	
+	}
+
+	.ContHijo1_text1 p{
+
+	 	padding-top: 0%;
+	 	font-size: 20px;
+
+	}
+
+	.ContHijo1_text2 p{
+
+	 	text-align: justify;
+
+	}
+
+
+
+	/*----------Art3----------------*/
+
+
+
+
+
+	.Art3_Cuerpo1{
+
+		width:96%;
+		height: 40%;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-bottom: 3%;
+
+	}
+
+
+
+	.Art3_Cuerpo2{
+
+		width:96%;
+		height: 40%;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-bottom: 3%;
+		padding-top: 3%;
+
+	}
+
+	/*------------------Art4--------------------*/
+
+	.Art4_Hijo1{
+
+		display: inline-block;
+		float: none;
+		width: 100%;
+		height: 40%;
+
+	}
+
+	.Hijo1_text1{
+
+		padding-top: 6%;
+		font-size: 55px;
+
+	}
+
+	#Hijo1_img p {
+
+		width: 100%;
+		padding-bottom: 2%;
+		text-align: center;
+
+	}
+
+	.Hijo1_text3 {
+   
+   		padding-top: 6%;
+	
+	}
+
+	.Art4_Hijo2{
+
+		width: 100%;
+		height: 47%;
+		margin-right: 0%;
+		display: inline-block;
+		text-align: center;
+
+	}
+
+	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4 {
+
+    	margin-right: 0%;
+	
+	}
+
+
+	/*------------footer--------------------------------------------*/
+
+	.footer_hijo1{
+
+		width: 30%;
+
+	}
+
+	.footer_hijo2{
+
+		width: 68%;
+
+	}
+
+	.hijo2_1, .hijo2_2{
+
+		height: 100%;
+		width: 49%;
+
+		display: inline-block;
+		vertical-align: top;
+
+
+	}
+
+	.hijo2_1_titulo1,.hijo2_1_titulo2{
+
+		margin-top: 10%;
+		width: 100%;
+		height: 25%;
+
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		border-bottom: 2px solid white;
+
+		font-family: robot_thin;
+		font-weight: bold;
+		color: white;
+
+	}
+
+	.cont_1, .cont_2{
+
+		height: 69%;
+		width: 100%;
+
+		font-family: robot_thin;
+		color: white;
+	}
+
 }
 
 /* Dispositivos Muy Pequeños (Telefónos Mayor A 360px) */
 @media(min-width:360px){
+	
+	.Inicio h1 {
+
+		font-size: 50px;
+
+	}
+
+	.Inicio2{
+
+		padding-top: 0px;
+	}
+
+	#abajo {
+
+	    top: 20%;
+	}
+	/*----------Art1---------------*/
+	.Art1 {
+
+		width: 100%;
+
+	}
+
+	.Art1_aside{
+
+		display: none;
+
+	}
+
+
+	.Art1_aside{
+
+		display: none;
+
+	}
+
+
+	.Art1_article1{
+
+		height: 32%;
+	}
+
+	.Art1_article2{
+		
+		height: 68%;
+	}
+
+	.Art1 h2{
+
+		font-size: 32px;
+
+	}
+
+
+	.Art1 h1{
+
+		font-size: 32px;
+
+	}
+
+	.Art1_Cuerpo h3{
+
+		font-size: 16px;
+
+	}
+
+	.article2_titulo{
+
+		display: none;
+
+	}
+
+	/*---art1 cursos---*/
+	.Art1_Cuerpo {
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+	}
+
+	.Lienzo {
+
+		width: 100%;
+		height: 100%;
+
+	}
+
+	.TargetF1C1, .TargetF1C2, .TargetF2C1, .TargetF2C2 {
+
+		margin: 0%;
+		display:block;
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+
+	.TargetsF1{
+
+		padding-top: 0%;
+
+	}
+
+	.TargetsF1, .TargetsF2 {
+
+		padding-bottom: 0%;
+	}
+
+	.InfoTF1C1 p, .InfoTF1C2 p, .InfoTF2C1 p, .InfoTF2C2 p{
+
+		font-size: 20px;
+
+	}
+
+	/*-----------art2------------*/
+
+	.Art2_titulo {
+
+		height: 5%;
+	 
+	}
+
+	.Art2_titulo h1{
+
+		padding-top: 0px;
+		font-size: 17px;
+
+	}
+
+	.Art2_ContPadre{
+
+		padding: 0;
+		height: 95%;
+	}
+
+	.Art2_ContHijo1, .Art2_ContHijo2, .Art2_ContHijo3, .Art2_ContHijo4{
+
+		margin-right: 0%; 
+		margin-left: 0%;
+		width: 100%;
+		height: 25%;
+		display: block;
+		text-align: center;
+	}
+
+	.Art2_ContHijo1{
+
+		padding-top: 5%;
+
+	}
+
+	/*----------------Para las imagenes----------------------*/
+
+
+	.ContHijo1_img{
+
+		height:80%;
+		width:30%;
+		display: inline-block;
+
+	}
+
+
+	.img_1, .img_2, .img_3, .img_4{
+
+		height:90%;
+		width: 90%;
+
+
+	}
+
+	.img_1:hover, .img_2:hover, .img_3:hover, .img_4:hover{
+
+		border-bottom: 2px solid #03db5d;
+		border-left: 2px solid #00D8FF;
+		border-top: 2px solid #DB00FF;
+		border-right: 2px solid #FB004F;
+
+	}	
+
+	/*---Contenedortextos------*/
+
+
+	.ContHijo1_text1{
+		height: 80%;
+		width: 45%;
+		background-color: #f3f3f3;
+		display: inline-block;
+		vertical-align: top;
+		border-top: 2px solid #575858;
+	}
+
+	.ContHijo1_text2{
+
+		height: 0%;
+		width: 0%;
+		background-color: #f3f3f3;
+		display: block;
+	}
+
+	.ContHijo1_text1 p{
+
+	 	padding-top: 0%;
+	 	font-size: 20px;
+
+	}
+
+	.ContHijo1_text2 p{
+
+	 	text-align: justify;
+
+	}
+
+
+
+	/*----------Art3----------------*/
+
+
+
+
+
+	.Art3_Cuerpo1{
+
+		width:96%;
+		height: 40%;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-bottom: 3%;
+
+	}
+
+
+
+	.Art3_Cuerpo2{
+
+		width:96%;
+		height: 40%;
+		padding-left: 1%;
+		padding-right: 1%;
+		padding-bottom: 3%;
+		padding-top: 3%;
+
+	}
+
+
+
+	/*-------------------------art4----------------------*/
+
+		.Art4_Hijo1{
+
+		display: inline-block;
+		float: none;
+		width: 100%;
+		height: 40%;
+
+	}
+
+	.Hijo1_text1{
+
+		padding-top: 6%;
+		font-size: 55px;
+
+	}
+
+	#Hijo1_img p {
+
+		width: 100%;
+		padding-bottom: 2%;
+		text-align: center;
+
+	}
+
+	.Hijo1_text3 {
+   
+   		padding-top: 6%;
+	
+	}
+
+	.Art4_Hijo2{
+
+		width: 100%;
+		height: 47%;
+		margin-right: 0%;
+		display: inline-block;
+		text-align: center;
+
+	}
+
+	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4 {
+
+    	margin-right: 0%;
+    	height:  95%;
+	
+	}
+
+
+
+	/*------------footer--------------------------------------------*/
+
+	.footer_hijo1{
+
+		width: 30%;
+
+	}
+
+	.footer_hijo2{
+
+		width: 68%;
+
+	}
+
+	.hijo2_1, .hijo2_2{
+
+		height: 100%;
+		width: 49%;
+
+		display: inline-block;
+		vertical-align: top;
+
+
+	}
+
+	.hijo2_1_titulo1,.hijo2_1_titulo2{
+
+		margin-top: 10%;
+		width: 100%;
+		height: 25%;
+
+		display: grid;
+		justify-content: center;
+		align-content: center;
+		border-bottom: 2px solid white;
+
+		font-family: robot_thin;
+		font-weight: bold;
+		color: white;
+
+	}
+
+	.cont_1, .cont_2{
+
+		height: 69%;
+		width: 100%;
+
+		font-family: robot_thin;
+		color: white;
+	}
+
 }
 
 /* Dispositivos Pequeños (Tablets Y Telefonos Mayor A 600px) */
 @media(min-width:600px){
+
+	.Art1_Cuerpo h3 {
+
+    	text-align: center;
+
+	}
+
+	.ContHijo1_img {
+    	height: 60%;
+    	width: 15%;
+
+	}
+
+	.img_1, .img_2, .img_3, .img_4 {
+	    height: 100%;
+	    width: 100%;
+	}
+
+	.ContHijo1_text1 {
+    	height: 60%;
+	}
+
+	.ContHijo1_text1 p {
+    	padding-top: 5%;
+	}
+
+	/*-------------Art4--------------*/
+
+	.Art4_Hijo1 {
+
+		margin-top: 5%;
+
+	}
+
+	.Hijo1_text3 {
+    	padding-top: 3%;
+	}
+
 }
+
 
 /* Dispositivos Medianos (Mayores A 768px)*/
 @media(min-width:768px){
 
+	.Inicio2{
+
+		padding-top: 60px;
+	}
+
+
+	/*------------Art1-----------------*/
+	.Art1 h2 {
+
+	    font-size: 37px;
+	}
+
+	.Art1_Cuerpo h3 {
+
+	    font-size: 21px;
+
+	}
+
+	.article2_titulo{
+
+		display: block;
+
+	}
+
+	.Lienzo {
+
+		width: 88%;
+		height: 65%;
+
+	}
+
+	.TargetF1C1, .TargetF1C2, .TargetF2C1, .TargetF2C2 {
+
+		display: inline-block;
+		width: 43%;
+		height: 115px;
+	   	margin-left: 2%;
+	   	margin-right: 2%;
+	}
+
+
+	.TargetsF1, .TargetsF2 {
+
+		padding-bottom: 5%;
+	}
+
+
+	.InfoTF1C1 p, .InfoTF1C2 p, .InfoTF2C1 p, .InfoTF2C2 p{
+
+		font-size: 180%;
+
+	}
+
+
+	/*----------Articulo 2----------------------------*/
+
+	.Art2_titulo{
+
+		height: 10%;
+
+	}
+
+	.Art2_titulo h1{
+
+		padding-top: 15px;
+		font-size: 37px;
+
+	}
+
+
+	.Art2_ContPadre{
+
+		padding-left: 5%;
+		padding-right: 5%;
+
+	}
+
+
+	.Art2_ContPadre{
+
+		padding-top: 150px;
+		height: 55%;
+
+	}
+
+	.Art2_ContHijo1, .Art2_ContHijo2, .Art2_ContHijo3, .Art2_ContHijo4{
+
+		margin-right: 2%; 
+		margin-left: 2%;
+		width: 20%;
+		height: 90%;
+		display: inline-block;
+		vertical-align:top;
+		padding-top: 0;
+	}
+
+	/*----------------Para las imagenes----------------------*/
+
+
+	.ContHijo1_img{
+
+
+		height:40%;
+		width: 100%;
+		display: block;
+
+
+	}
+
+
+
+	/*-----------Contenedortextos----------------*/
+
+
+	.ContHijo1_text1{
+
+		height: 60%;
+		width: 100%;
+		display: block;
+		border-top: 3px solid #575858;
+
+	}
+
+
+
+	.ContHijo1_text1 p{
+
+		font-size: 20px;
+
+	}
+
+
+	/*------------Art4-----------------*/
+
+
+	.Hijo1_text3 {
+
+    	padding-top: 1%;
+	}
+
+	.Art4_Hijo2 {
+
+    	height: 52%;
+
+	}
 }
 
 /* Dispositivos Grandes (Laptop/Escritorio Mayores A 992px) */
 @media(min-width:992px){
+
+	.Inicio h1 {
+
+		font-size: 70px;
+
+
+	}
+
+
+	/*----------Articulo 1------------*/
+
+
+	.Art1{
+
+		width:70%;
+
+	}
+
+	.Art1_article1{
+
+		height: 40%;
+	}
+
+	.Art1 h2{
+
+		font-size: 43px;
+
+	}
+
+
+
+	.Art1_Cuerpo h3{
+
+		text-align:left;
+
+	}
+
+	.Art1_boton{
+		color: rgb(0,0,0);
+		width: 100%;
+		padding-top: 20px;
+		text-align: center;
+		text-decoration: none;
+
+	}
+
+	.Art1_boton input{
+		
+		padding: 0;
+		margin-top: 0px;
+		margin-left: 26%;
+		margin-right: 26%;
+		color: white;
+		height: 30px;
+		width: 34%;
+		background-color: black;
+		font-size: 10px;
+		text-decoration: none;
+		font-weight: bold;
+
+	}
+
+
+	/*------article2 Art1 ----*/
+
+	.Art1_article2{
+
+		height: 60%;
+
+	}
+
+
+	.article2_titulo h1{
+
+		font-size: 24px;
+
+	}
+
+	.Lienzo {
+
+		width: 100%;
+		height: 82%;
+	}
+
+
+	.TargetsF1, .TargetsF2{
+
+		padding-bottom: 0%;
+
+	}
+
+	.TargetsF1{
+
+		padding-top: 3%;
+		padding-bottom: 3%;
+
+	}
+
+	.TargetF1C1, .TargetF1C2, .TargetF2C1, .TargetF2C2 {
+
+		width: 45%;
+		height: 10%;
+	    margin-right: 0%;
+
+	}
+
+
+	/*-------aside de articulo 1------*/
+
+	.Art1_aside{
+
+		display: block;
+
+	}
+
+	.aside_img1{
+
+		width: 90%;
+		height: 48%;    
+	}
+
+	.aside_img2{
+
+		width: 60%;
+		height: 30%;   
+	    left: 9%; 
+	}
+
+	/*----------Articulo 2----------------------------*/
+
+
+	/*----------------Para las imagenes----------------------*/
+
+
+	.ContHijo1_img{
+
+		height:43%;
+
+	}
+
+
+
+	/*-----------Contenedortextos----------------*/
+
+
+	.ContHijo1_text1{
+
+		height: 57%;
+
+	}
+
+
+	.ContHijo1_text1 p{
+
+		font-size: 23px;
+
+	}
+
+
+
+	/*----------Articulo 4----------------------------*/
+
+
+
+
+
+	.Art4_Hijo1{
+
+		margin-top: 11%;
+		float: right;
+		width: 30%;
+		height:55%;
+
+	}
+
+
+	.Art4_Hijo2{
+
+		width: 70%;
+		height: 100%;
+		margin-right: 30%;
+		background-color: green;
+		text-align: right;
+		display: block;
+	}
+
+	/*-------imagenes---------*/
+	#Hijo1_img p{
+
+		text-align:unset;
+
+	}
+
+	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4{
+
+		margin-right: 1%;
+
+	}
+
+
+	/*-------textos---------*/
+
+	.Hijo1_text1{
+
+		font-size: 57px;
+		padding-top: 20%;
+	}
+
+
+	.Hijo1_text2{
+
+		text-align: center;
+	}
+
+	.Hijo1_text3{
+
+		text-align: center;
+
+	}
+
+
+
 
 }
 
@@ -1056,10 +2204,245 @@ footer {
 /* Extra */
 @media(min-width:1182px){
 
+	#abajo{
+
+	  top: 25%;
+
+	}
+
+
+	/*----------Articulo 2----------------------------*/
+
+	.Art2_titulo{
+
+		height: 15%;		
+	
+	}
+
+	.Art2_titulo h1{
+
+		padding-top: 24px;
+		font-size: 57px;
+
+	}
+
+	.Art2_ContPadre{
+
+		padding-left: 10%;
+		padding-right: 10%;
+		padding-top: 120px;
+	}
+
+
+	/*----------------Para las imagenes----------------------*/
+
+
+	.ContHijo1_img{
+
+
+		height:35%;
+
+
+	}
+
+
+	.img_1, .img_2, .img_3, .img_4{
+
+		width: 60%;
+		background-size: 81% 71%;
+
+	}
+
+
+	/*-----------Contenedortextos----------------*/
+
+	.ContHijo1_text1 p{
+
+		font-size: 25px;
+
+	}
+
+
+	/*--------------Art3------------------*/
+
+	.Art3_Cuerpo1 {
+
+	    width: 84%;
+	    height: 45%;
+	    padding-left: 7%;
+	    padding-right: 7%;
+	    padding-bottom: 2%;
+
+	}
+
+	.Cuerpo1_ContHijo2 {
+
+	    width: 70%;
+	    height: 100%;
+
+	}
+
+	.Art3_Cuerpo2 {
+
+	    width: 84%;
+	    height: 40%;
+	    padding-left: 7%;
+	    padding-right: 7%;
+	    padding-bottom: 0%; 
+	    padding-top: 0%; 
+
+	}
+
+	/*---------Art4---------*/
+
+	.Art3_Cuerpo1 {
+	    width: 74%;
+	    height: 46%;
+	    padding-left: 12%;
+	    padding-right: 12%;
+	    padding-bottom: 1%;
+	}
+
+	.Art3_Cuerpo2 {
+	    width: 74%;
+	    height: 43%;
+	    padding-left: 12%;
+	    padding-right: 12%;
+	    padding-bottom: 0%;
+	    padding-top: 0%;
+	}
+
+	.Hijo1_text1 {
+
+    	font-size: 68px;
+
+	}
+
+	.Hijo1_text2 {
+
+    	padding-top: 3%;
+	}
+
+	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4 {
+
+    	height: 98%;
+	}
+
 }
 
 /* Extra */
 @media(min-width:1294px){
 
-}
+	header{
 
+		background-size: 100% 85%;
+
+	}
+
+	.Art1_Cuerpo h3{
+
+		text-align:center;
+
+	}
+
+	/*-------aside de articulo 1------*/
+
+	.Art1_aside{
+
+		position:relative;
+		width: 30%;
+		background-color: white;
+		float: left;
+		height: 100%;
+
+	}
+
+	.aside_img1{
+
+		background-color:green;
+
+		width: 87%;
+		height: 51%;
+
+		border-radius: 50%;
+		border: 3px solid black;
+		/*border: 5px inset #006904;*/
+		/*position: absolute;*/
+	    /*left: calc(50% - 140px);*/
+
+	    margin: 0;
+	   	position: absolute;
+	    top: 5%;   
+	    left: 75%; 
+	    margin-right: -75%;                     
+	    transform: translate(-75%, -5%);
+
+	    background-image: url("../images/img_educacion3.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position:center;
+
+	}
+
+	.aside_img2{
+
+		background-color:green;
+		width: 69%;
+		height: 40%;
+
+		border-radius: 50%;
+		/*border: 5px inset  #006904;*/
+		border: 3px solid black;
+		/*position: absolute;*/
+	    /*left: calc(50% - 140px);*/
+	    margin: 0;
+	   	position: absolute;
+	    top: 95%;   
+	    left: -2%; 
+	    margin-right: -5%;                     
+	    transform: translate(-5%, -95%);
+
+	    background-image: url("../images/img_educacion4.jpg");
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-position:center;
+
+	}
+
+
+	/*------article2 Art1 ----*/
+
+
+	.TargetF1C1, .TargetF1C2, .TargetF2C1, .TargetF2C2 {
+
+		width: 40%;
+		height: 140px;
+	    margin-right: 25px;
+
+	}
+
+	/*-------------art2----------------*/
+
+
+	.ContHijo1_text1{
+
+		padding-top: 5%;
+
+	}
+
+	/*--------------Art4-------------------*/
+
+	.Hijo1_text1 {
+    	font-size: 74px;
+	}
+
+	.Hijo1_text2 {
+    	font-size: 40px;
+	}
+
+	.Hijo1_text3 {
+
+    	padding-top: 5%;
+	}
+
+}

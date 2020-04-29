@@ -1,0 +1,195 @@
+
+html,body {
+
+	margin: 0;
+	height: 100%;
+}
+
+a {
+
+	text-decoration: none;
+}
+
+h1 , h2, h3{
+	margin:0;
+	padding:0;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+/*-----------CUERPO PAGINA------------*/
+
+.Seccion_Mision{
+
+	height: 100%;
+	background-color: green;
+	background-image: url("../images/fondoNosotros.png");
+	background-repeat: no-repeat;
+	background-size: 100% 110%;
+	background-position: top;
+
+}
+
+.Mision_CajaTexto{
+
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 3%;
+}
+
+.Mision_CajaTexto1{
+
+	font-size: 19px;
+	padding-top: 18px;
+}
+
+.Mision_CajaTexto2{
+
+	font-family:anton_regular;
+	font-size: 45px;
+
+	padding-top: 28px;
+	padding-bottom: 28px;
+
+}
+
+.Mision_CajaTexto3{
+
+	font-size: 27px;
+
+}
+
+.Seccion_Valores{
+
+	height: 100%;
+	background-color: purple;
+
+}
+
+
+.Valores_CajaTexto{
+
+	padding-left: 15%;
+	padding-right: 15%;	
+
+}
+
+.Valores_CajaTexto1{
+
+	font-family:anton_regular;
+	font-size: 45px;
+
+	padding-top: 19%;
+	padding-bottom: 48px;
+
+}
+
+.Valores_CajaTexto2{
+
+	font-size: 27px;
+
+}
+
+footer{
+
+	height: 50%;
+	background-color: yellow;
+
+}
+
+.CajaEquipo{
+
+	height: 70%;
+	padding-top:5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color: grey;
+	text-align: center;
+}
+
+.Caja_Erick, .Caja_Sonia, .Caja_Chanax{
+
+	height: 100%;
+	width: 30%;
+	display: inline-block;
+	margin-right: 1%;
+	background-color: red;
+}
+
+@font-face{
+
+	font-family: anton_regular;
+	src: url("../fonts/Anton-Regular.ttf");
+
+}
+
+
+		/* ---------- Responsive ---------- */
+/* Dispositivos Muy Pequeños (Telefónos Menor A 360px) */
+@media(min-width:360px){
+
+	.Seccion_Mision{
+
+		text-align: center;
+
+	}
+
+	.Mision_CajaTexto1{
+
+		font-size: 45px;
+
+	}	
+
+
+	.Mision_CajaTexto2{
+
+		font-size: 159px;
+
+	}
+
+	.Mision_CajaTexto3{
+
+		font-size: 69px;
+
+	}
+
+	.Seccion_Valores{
+
+		text-align: center;
+
+	}
+
+
+	.Valores_CajaTexto1{
+
+		font-size: 159px;
+
+
+	}
+
+	.Valores_CajaTexto2{
+
+		font-size: 45px;
+
+	}
+
+
+	.CajaEquipo{
+
+		height: 70%;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.Caja_Erick, .Caja_Sonia, .Caja_Chanax{
+
+		height: 30%;
+		width: 35%;
+		display:block;
+
+	}
+
+}

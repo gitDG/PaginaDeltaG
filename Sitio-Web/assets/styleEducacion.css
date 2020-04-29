@@ -1,0 +1,86 @@
+
+html,body {
+
+	margin: 0;
+	height: 100%;
+}
+
+
+
+a {
+
+	text-decoration: none;
+}
+
+h1 , h2, h3{
+	margin:0;
+	padding:0;
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+.Portada{
+
+	height: 100%;
+	background-color: green;
+	background-image: url("../images/girl-PortadaNosotros.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.Fondo_Portada{
+
+	height: 100%;
+	background: rgb(252,53,76);  /* fallback for old browsers */
+	background: -webkit-linear-gradient(rgba(67,53,252,0.5), rgba(10,191,188,0.5));  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(rgba(67,53,252,0.5), rgba(10,191,188,0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Caja_Portada{
+
+	padding-top: 15%;
+	color: white;
+	text-align: center;
+}
+
+.Portada_texto1{
+
+    font-family: robot_thin;;
+	font-size: 300%;
+	font-weight: bold;
+}
+
+.Portada_texto2{
+
+	padding-top: 7%;
+	font-size: 400%;
+	font-family: GV_Regular;
+	font-weight: bold;
+	color: yellow;
+}
+
+
+
+@font-face{
+
+	font-family: galdeano_regular;
+	src: url("../fonts/Galdeano-Regular.ttf");
+}
+
+
+@font-face{
+
+	font-family: GV_Regular;
+	src: url("../fonts/GreatVibes-Regular.ttf");
+
+}
+
+@font-face {
+   font-family: robot_thin;
+   src: url("../fonts/Roboto-Thin.ttf");
+
+}
