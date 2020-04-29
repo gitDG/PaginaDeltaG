@@ -32,6 +32,9 @@ p{
 	background-position: center;
 }
 
+
+     /*transform: scale(1.03);  para hover*/
+
 .Fondo_Portada{
 
 	height: 100%;
@@ -60,8 +63,18 @@ p{
 	font-size: 400%;
 	font-family: GV_Regular;
 	font-weight: bold;
-	color: yellow;
+	color: #4ECAFF;
+	text-shadow: 0px 0px 9px #00A4FF;
 }
+
+
+/*---------------------PremisA-------------------------------*/
+
+	.Premisa{
+
+		height: 100%;
+
+	}
 
 
 
