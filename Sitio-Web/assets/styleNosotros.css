@@ -129,7 +129,8 @@ footer{
 
 		/* ---------- Responsive ---------- */
 /* Dispositivos Muy Pequeños (Telefónos Menor A 360px) */
-@media(min-width:360px){
+
+@media(max-width:360px){
 
 	.Seccion_Mision{
 
@@ -190,6 +191,111 @@ footer{
 		width: 35%;
 		display:block;
 
+	}
+
+}
+
+@media(min-width: 360px){
+
+
+	/*-----------CUERPO PAGINA------------*/
+
+	.Seccion_Mision{
+
+		height: 100%;
+		background-color: white;
+		background-image: url("../images/fondoNosotros.png");
+		background-repeat: no-repeat;
+		background-size: 100% 110%;
+		background-position: top;
+
+	}
+
+	.Mision_CajaTexto{
+
+		padding-left: 15%;
+		padding-right: 15%;
+		padding-top: 3%;
+	}
+
+	.Mision_CajaTexto1{
+
+		font-size: 19px;
+		padding-top: 18px;
+	}
+
+	.Mision_CajaTexto2{
+
+		font-family:anton_regular;
+		font-size: 45px;
+
+		padding-top: 28px;
+		padding-bottom: 28px;
+
+	}
+
+	.Mision_CajaTexto3{
+
+		font-size: 27px;
+
+	}
+
+	.Seccion_Valores{
+
+		height: 100%;
+		background-color: white;
+		color: #35F8FC;
+
+	}
+
+
+	.Valores_CajaTexto{
+
+		padding-left: 15%;
+		padding-right: 15%;	
+
+	}
+
+	.Valores_CajaTexto1{
+
+		font-family:anton_regular;
+		font-size: 45px;
+
+		padding-top: 19%;
+		padding-bottom: 48px;
+
+	}
+
+	.Valores_CajaTexto2{
+
+		font-size: 27px;
+
+	}
+
+	footer{
+
+		height: 50%;
+		background-color: yellow;
+
+	}
+
+	.CajaEquipo{
+
+		height: 70%;
+		padding-top:5%;
+		padding-left: 10%;
+		padding-right: 10%;
+		background-color: grey;
+		text-align: center;
+	}
+
+	.Caja_Erick, .Caja_Sonia, .Caja_Chanax{
+
+		height: 100%;
+		width: 30%;
+		display: inline-block;
+		margin-right: 1%;
+		background-color: red;
 	}
 
 }
