@@ -705,7 +705,7 @@ section {
 	width:45%;
 	height: 50%;
 	margin-top: 8%;
-	border: 3px outset rgb(12,1,255);
+	border: 3px outset #26FF29;
 	text-align: center;
 	  /*
 	  background-image:
@@ -819,7 +819,7 @@ section {
 .ContHijo1_titulo1, .ContHijo1_titulo2{
 
 	font-size: 31px;
-	color: #2008FF;
+	color:  #26FF29;
 	font-family: galdeano_regular;
 	font-weight: bold;
 }
@@ -1594,7 +1594,7 @@ footer {
 		padding-left: 1%;
 		padding-right: 1%;
 		padding-bottom: 3%;
-		padding-top: 9%;
+		padding-top: 10%;
 
 	}
 
@@ -1628,6 +1628,7 @@ footer {
 		font-size: 12px;
 		text-align: center;	
 	}
+
 
 
 	/*------------footer--------------------------------------------*/
@@ -1743,9 +1744,17 @@ footer {
 
 	/*------------------art3-----------------------*/
 
+	.Cuerpo1_ContHijo1{
+
+		border: 3px outset rgb(12,1,255);
+
+	}
+
+
 	.ContHijo1_titulo1, .ContHijo1_titulo2{
 
 		font-size: 31px;
+		color: #2008FF;
 
 	}
 
@@ -1768,6 +1777,7 @@ footer {
 
 	    padding-top: 4%;
 	}
+
 
 
 }
@@ -2081,8 +2091,6 @@ footer {
 		font-size: 23px;
 
 	}
-
-
 
 
 }
