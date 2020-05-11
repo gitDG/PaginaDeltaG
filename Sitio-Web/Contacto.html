@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title> Contacto DG </title>
+
+		<!-- Archivo JS -->
+
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
+		<script src="../scripts/jsContacto.js"></script>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta name="keywords" content="sellos,trodat,seguridad industrial,fotopolimeros,suministros,proservi,sellosoficina">
+
+		<!-- Archivo CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/styleContacto.css">
+	</head>
+
+	<body>
+
+		<!-- Encabezado -->
+		<header>
+			<div class="NavBar">
+
+				<div class="Logo">
+					<a href="http://www.deltagweb.com">
+						<img src="images/Logo.png">
+					</a>
+				</div>
+
+				<nav class="Menu">
+
+					<ul>
+
+						<li><a href="http://www.deltagweb.com">Inicio</a></li>
+
+						<li><a href="assets/Nosotros.html">Nosotros</a></li>
+
+						<li>
+							<a href="assets/Educacion.html">
+								<span id="EduFont-A">Δ</span><span id="EduFont-B">G</span>educación
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="Login">Login</div>
+			</div>
+		</header>
+
+
+		<!-------SeccionPagina------->
+		<section>
+
+			<div class="Cont-PagCont">
+				<div class="Cont-Gradiente">
+					<div class="Cont-Cuadro">
+
+						<div class="Cont-Titulo">
+							<p> CONTACTOS DG </p>
+						</div>
+
+						<div class="Cont-Contacto">
+
+							<div class="Cont-Mensaje">
+
+
+								<form name="miformulario" id="miformulario"  method="post">
+
+									<div class="Titulo-Mensaje">
+
+										<p>ESCRIBENOS UN MENSAJE</p>
+									</div>
+
+									<div class="Div-NM">
+
+										<input type="text" name="NombreMensaje" id="imputMensaje" placeholder="Nombre">
+									</div>
+
+									<div class="Div-EM">
+
+										<input type="email" name="EmailMensaje" id="imputMensaje" placeholder="correo" required>
+									</div>
+
+									<div class="Div-TM">
+
+										<input type="text" name="AsuntoMensaje" id="imputMensaje" placeholder="Asunto" required>
+									</div>
+
+							        <div class="Div-LM">
+
+										<p>
+										<textarea type="text"  name="LetraMensaje" id="LetraMensaje"  maxlength="500" required>
+										</textarea>
+										</p>
+
+										<div class="Div-BM">
+
+											<input type="button" id="enviarDatos" value="enviar datos"  onclick="validateForm()" >
+
+										</div>
+
+									</div>
+								</form>
+							</div>
+
+								<div class="Cont-Contactos">
+
+
+								<div class="CC-Contacto">
+										<a href="https://www.facebook.com/proservis/">
+											<div class="CC-Contacto1">
+
+											</div>
+										</a>
+										<div class="Txt-Contacto1">
+											<p>FACEBOOK <br>/proservis</p>
+										</div>
+								</div>
+
+								<div class="CC-Contacto">
+										<a href="https://api.whatsapp.com/send?phone=50256940749">
+											<div class="CC-Contacto3">
+											</div>
+										</a>
+										<div class="Txt-Contacto3">
+
+											<p>WHATSAPP<br>56940749</p>
+										</div>
+								</div>
+
+								<div class="CC-Contacto">
+										<a href="http://www.proservigt.com">
+											<div class="CC-Contacto4">
+											</div>
+										</a>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+
+
+		<!-- Píe De Página -->
+		<footer>
+			<div class="ContPiePagina">
+				<p>© 2020 Derechos reservados  <span id="DeltaG"><a href="http://www.deltagweb.com">DeltaG</a></span></p>
+			</div>
+		</footer>
+	</body>
+</html>

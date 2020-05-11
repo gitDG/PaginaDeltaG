@@ -2,7 +2,7 @@
 html,body {
 
 	margin: 0;
-	height: 100%;
+	height: 100vh;
 }
 
 a {
@@ -36,7 +36,7 @@ p{
 header {
 
 	height: 100%;
-  	overflow: hidden;  
+  	overflow: hidden;
   	/*background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);*/
 	/*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; */
 	/*	background-image: linear-gradient(to right, #434343 0%, black 100%);*/
@@ -84,7 +84,7 @@ header {
 }
 
 .Menu ul {
-	
+
 	margin: 0;
 	display: flex;
 	list-style: none;
@@ -94,8 +94,9 @@ header {
 .Menu ul a {
 
 	color: white;
-	font-family: 'Roboto Slab', serif;
-	font-size: 20px;
+	font-family: robot_condensed;
+	font-size: 23px;
+	font-weight: bold;
 }
 
 .Menu ul li {
@@ -117,7 +118,7 @@ header .NavBar .Menu li:hover{
 	float: right;
 	color: white;
 }
-	/*---------------------------------*/
+	/*-------------portada--------------------*/
 .Inicio {
 
 	color: white;
@@ -136,7 +137,7 @@ header .NavBar .Menu li:hover{
 	font-family: 'Acme', sans-serif;
 	font-weight: bold;
 	font-size: 70px;
-	text-shadow: 0 0 0.1em #007300;
+	text-shadow: 0 0 0.2em #007300;
 
 }
 
@@ -144,7 +145,7 @@ header .NavBar .Menu li:hover{
 
 	font-family: actor_regular;
 	color: white;
-	text-shadow: 0px 0px 9px #00A4FF;
+	text-shadow: 0px 0px 10px #00A4FF;
 
 }
 
@@ -195,18 +196,19 @@ section {
 
 }
 
-.Art1_titulo{
+.Art1_titulo {
 
-	width: 100%;
-	padding-bottom: 3%;
-	padding-top: 3%;
-	text-align: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 2%;
+    padding-top: 0%;
+
 }
 
 .Art1 h2{
 
 		font-size: 43px;
-
+		font-family:actor_regular;
 }
 
 
@@ -214,10 +216,10 @@ section {
 .Art1_Cuerpo{
 
 	padding-top: 4px;
-	padding-left: 7%;
-	padding-right: 7%;
+	padding-left: 4%;
+	padding-right: 4%;
 	padding-bottom: 5px;
-	 
+
 }
 
 .Art1_Cuerpo h3{
@@ -237,7 +239,7 @@ section {
 }
 
 .Art1_boton input{
-	
+
 	padding: 0;
 	margin-top: 0px;
 	margin-left: 26%;
@@ -258,9 +260,9 @@ section {
 
 	position:relative;
 	width: 30%;
-	background-color: white;
 	float: left;
 	height: 100%;
+
 
 }
 
@@ -279,9 +281,9 @@ section {
 
     margin: 0;
    	position: absolute;
-    top: 5%;   
-    left: 75%; 
-    margin-right: -75%;                     
+    top: 5%;
+    left: 75%;
+    margin-right: -75%;
     transform: translate(-75%, -5%);
 
     background-image: url("../images/img_educacion3.jpg");
@@ -305,9 +307,9 @@ section {
     /*left: calc(50% - 140px);*/
     margin: 0;
    	position: absolute;
-    top: 95%;   
-    left: -2%; 
-    margin-right: -5%;                     
+    top: 95%;
+    left: -2%;
+    margin-right: -5%;
     transform: translate(-5%, -95%);
     background-image: url("../images/img_educacion4.jpg");
 	background-repeat: no-repeat;
@@ -335,19 +337,14 @@ section {
 .article2_titulo h1{
 
 		font-size: 24px;
-	    font-family: robot_thin;
-
+	    font-family:actor_regular;
+		font-weight: bold;
 }
 
 .Lienzo {
 
 	width: 88%;
-	margin: 0;
-	position:absolute;
-	top:50%;
-	left: 50%;
-    margin-right: -50%;                     
-    transform: translate(-50%, -50%);
+	margin: 0 auto;
 
 }
 
@@ -355,7 +352,6 @@ section {
 
 	display: inline-block;
 	width: 40%;
-	height: 20%;
 	border: 3px solid rgba(63,233,242,1);
 	background-color:#F1FFFF;
 
@@ -366,7 +362,6 @@ section {
 	color:white;
 
 	border-radius: 18px;
-    margin-right: 25px;
 
    	text-align: center;
    	color :black;
@@ -390,19 +385,17 @@ section {
 .InfoTF1C1, .InfoTF1C2, .InfoTF2C1, .InfoTF2C2 {
 
 	margin: 0;
-	margin-left: 5%;
-	padding-top: 1%;
+	padding-top: 5%;
 	width: 90%;
 	height: 65%;
 	background-color:#F1FFFF;
-
+	margin: 0 auto;
 }
 
 .PieTF1C1, .PieTF1C2, .PieTF2C1, .PieTF2C2 {
 
 	width: 90%;
 	height: 25%;
-	margin-left: 5%;
 	background: rgba(242,242,242,1);
 
 	background-color:#F1FFFF;
@@ -416,7 +409,7 @@ section {
 	padding-top: 10px;
 	width: 60%;
 	font-family: 'Stylish', sans-serif;
-	font-size: 120%;
+	font-size: 50px;
 	text-align: center;
 	border-right: 2px solid #fff;
 
@@ -441,7 +434,7 @@ section {
 
 .InfoTF1C1 p, .InfoTF1C2 p, .InfoTF2C1 p, .InfoTF2C2 p{
 
-	font-size: 180%;
+	font-size: 100px;
 	font-family: 'Stylish', sans-serif;
 	font-weight: bold;
 
@@ -450,7 +443,7 @@ section {
 .Pie-Derecho a {
 
 	font-family: 'Stylish', sans-serif;
-	font-size: 140%;
+	font-size: 40px;
 	text-decoration: none;
 	color: white;
 	font-weight: bold;
@@ -470,7 +463,7 @@ section {
 /*----------Articulo 2----------------------------*/
 
 .Art2{
-	
+
 	background-color: #f3f3f3;
 
 	/*	background: rgba(255,255,255,1);
@@ -491,8 +484,8 @@ section {
 .Art2_titulo{
 
 	width: 100%;
-	font-family: robot_thin;
-	background-color: #f3f3f3;	
+	font-family:actor_regular;
+	background-color: #f3f3f3;
 }
 
 .Art2_ContPadre{
@@ -518,7 +511,7 @@ section {
 
 .Art2_ContHijo1, .Art2_ContHijo2, .Art2_ContHijo3, .Art2_ContHijo4{
 
-	margin-right: 2%; 
+	margin-right: 2%;
 	margin-left: 2%;
 	width: 20%;
 	height: 90%;
@@ -561,9 +554,9 @@ section {
 
     margin: 0;
    	position: absolute;
-    top: 50%;   
-    left: 50%; 
-    margin-right: -50%;                     
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
     transform: translate(-50%, -50%);
 
 }
@@ -644,7 +637,7 @@ section {
 
 .ContHijo1_text2 p{
 
- 
+
 	font-family: galdeano_regular;
 	font-size: 15px;
 
@@ -664,6 +657,7 @@ section {
 	background-color: #30272D;
 	background-color: white;
 	clear: both;
+
 }
 
 .Art3_titulo{
@@ -671,9 +665,9 @@ section {
 	padding-top: 10px;
 	font-family: actor_regular;
 	padding-left: 3%;
-	color: white;
+	padding-top: 3%;
 	color:black;
-	font-size: 20px;
+	font-size: 30px;
 
 }
 
@@ -681,9 +675,11 @@ section {
 
 	font-family: robot_thin;
 	padding-left: 3%;
-	color: white;
+	padding-top: 3%;
+	padding-bottom: 3%;
 	color:black;
-	font-size: 20px;
+	font-size: 23px;
+
 }
 
 .Art3_Cuerpo1{
@@ -693,6 +689,7 @@ section {
 	padding-left: 25%;
 	padding-right: 20%;
 	padding-bottom: 2%;
+	padding-top: 4%;
 
 }
 
@@ -703,15 +700,16 @@ section {
 	width:45%;
 	height: 50%;
 	margin-top: 8%;
-	border: 3px outset #26FF29;
+	border: 3px outset rgb(12,1,255);
+	text-align: center;
 	  /*
-	  background-image: 
+	  background-image:
 	  repeating-linear-gradient(
       45deg,
       orange,
       yellow 10px,
       red 10px,
-      orange 30px 
+      orange 30px
     	);
       */
 	float: left;
@@ -732,11 +730,9 @@ section {
 	background-repeat: no-repeat;
 	background-size: 100% 125%;
 	background-position:center;
-
-	border: 3px outset #FF26D6;
+	border: 3px outset black;
 
 }
-
 
 
 .Art3_Cuerpo2{
@@ -761,14 +757,14 @@ section {
 	background-size: 100% 112%;
 	background-position:center;
 
-	border: 3px outset #FF26D6;
+	border: 3px solid black;
 	/*
-	background: 
+	background:
     repeating-radial-gradient(
-      circle at 0 0, 
+      circle at 0 0,
       #eee,
       #ccc 50px
-    );	
+    );
 	*/
 }
 
@@ -782,10 +778,10 @@ section {
 	/*
 	background-image:
     linear-gradient(
-      to right, 
-      red, 
-      #f06d06, 
-      rgb(255, 255, 0), 
+      to right,
+      red,
+      #f06d06,
+      rgb(255, 255, 0),
       green
     );
     */
@@ -794,146 +790,46 @@ section {
 }
 
 /*-------Para los textos---------*/
+
 .Cuerpo1_ContHijo1,.Cuerpo2_ContHijo2{
 
 	display: grid;
 	justify-content: center;
 	align-items: center;
-	
+
 }
 
-.ContHijo1_titulo1{
+.Cuerpo1_ContHijo1:hover{
+
+
+	background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%);
+}
+
+ .Cuerpo2_ContHijo2:hover{
+
+	background-image: linear-gradient(to left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.8) 100%);
+
+ }
+
+.ContHijo1_titulo1, .ContHijo1_titulo2{
 
 	font-size: 31px;
-	color: #26FF29;
-	font-family: robot_thin;
-	height: 50px;
+	color: #2008FF;
+	font-family: galdeano_regular;
 	font-weight: bold;
 }
 
-.ContHijo1_titulo2{
+/*titulo enmedio */
 
-	color: #00DADE;
-	font-size: 17px;
-	font-family: averia_regular;
+#ContHijo1_tituloVerde{
 
-	height: 50px;
-}
-
-
-/*----------Articulo 4----------------------------*/
-.Art4{
-
-	background-color: red;
-
-}
-
-.Art4_Cuerpo{
-
-	width: 90%;
-	height: 90%;
-	padding-top: 4%;
-	padding-left: 5%;
-	padding-right: 5%;
-	background-color: purple;
+	color: #26FF29;
 
 }
 
 
-.Art4_Hijo1{
-	margin:0;
-	padding: 0;
-	margin-top: 11%;
-	float: right;
-	width: 30%;
-	height:55%;
-	background-color: orange;
-
-}
-
-
-.Art4_Hijo2{
-
-	width: 70%;
-	height: 100%;
-	margin-right: 30%;
-	background-color: green;
-	text-align: right;
-}
-
-#Hijo1_img p{
-
-	width: 90%;
-	padding-bottom: 6%;
-}
-
-.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4{
-
-	height: 90%;
-	width: 23%;
-	margin-right: 1%;
-	background-color: yellow;
-	display: inline-block;
-
-}
-
-
-.Hijo2_img1{
-
-	background-image: url("../images/Nosotros4.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: left;
-}
-
-
-.Hijo2_img2{
-
-	background-image: url("../images/Nosotros1.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-
-}
-
-.Hijo2_img3{
-
-	background-image: url("../images/Nosotros2.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 40% 50%;
-}
-
-.Hijo2_img4{
-
-	background-image: url("../images/Nosotros3.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: 55% 50%;
-}
-
-
-.Hijo1_text1{
-
-	font-family: anton_regular;
-	font-size: 70px;
-}
-
-.Hijo1_text2{
-
-	font-size: 35px;
-
-}
-
-.Hijo1_text3{
-
-	font-size: 20px;
-
-}
-
-
-/* --------- Diseño Footer ---------------------- */
-footer {
+/* --------- Diseño Footer 1 -------------------------------- */
+.footer {
 
 	height: 100%;
 	width: 100%;
@@ -1055,6 +951,45 @@ footer {
 	color: white;
 }
 
+/* -----  Footer final --------------------------------------- -----*/
+footer {
+
+	width: 100%;
+	background: black;
+	color: black;
+	text-align: center;
+}
+
+
+/* ----- Diseño Foter -----*/
+.ContPiePagina {
+
+	width: 100%;
+}
+
+.ContPiePagina p {
+
+	margin: 0;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#By {
+
+	font-size: 10px;
+}
+
+#DeltaG {
+
+	text-decoration: none;
+}
+
+.ContPiePagina a {
+
+	color: rgb(161,188,59);
+}
+
 
 /*------------------fuentes-----------------------------*/
 
@@ -1100,6 +1035,29 @@ footer {
 /* Dispositivos Muy Pequeños (Telefónos Menor A 360px) */
 @media(max-width:360px){
 
+
+	.Logo {
+
+		display: none;
+	}
+
+
+	.Menu  {
+
+
+		width: 100%;
+
+	}
+
+	.Menu ul a {
+
+
+		font-size: 16px;
+
+	}
+
+	/*---------portada---------*/
+
 	.Inicio2{
 
 		padding-top: 0px;
@@ -1132,7 +1090,7 @@ footer {
 	}
 
 	.Art1_article2{
-		
+
 		height: 68%;
 	}
 
@@ -1165,8 +1123,7 @@ footer {
 
 	.Lienzo {
 
-		width: 100%;
-		height: 100%;
+
 
 	}
 
@@ -1203,7 +1160,7 @@ footer {
 	.Art2_titulo {
 
 		height: 5%;
-	 
+
 	}
 
 	.Art2_titulo h1{
@@ -1221,7 +1178,7 @@ footer {
 
 	.Art2_ContHijo1, .Art2_ContHijo2, .Art2_ContHijo3, .Art2_ContHijo4{
 
-		margin-right: 0%; 
+		margin-right: 0%;
 		margin-left: 0%;
 		width: 100%;
 		height: 25%;
@@ -1262,7 +1219,7 @@ footer {
 		border-top: 2px solid #DB00FF;
 		border-right: 2px solid #FB004F;
 
-	}	
+	}
 
 	/*---Contenedortextos------*/
 
@@ -1279,7 +1236,7 @@ footer {
 	.ContHijo1_text2{
 
 		display: none;
-	
+
 	}
 
 	.ContHijo1_text1 p{
@@ -1298,9 +1255,6 @@ footer {
 
 
 	/*----------Art3----------------*/
-
-
-
 
 
 	.Art3_Cuerpo1{
@@ -1326,54 +1280,11 @@ footer {
 
 	}
 
-	/*------------------Art4--------------------*/
+	.ContHijo1_titulo1, .ContHijo1_titulo2{
 
-	.Art4_Hijo1{
-
-		display: inline-block;
-		float: none;
-		width: 100%;
-		height: 40%;
+		font-size: 25px;
 
 	}
-
-	.Hijo1_text1{
-
-		padding-top: 6%;
-		font-size: 55px;
-
-	}
-
-	#Hijo1_img p {
-
-		width: 100%;
-		padding-bottom: 2%;
-		text-align: center;
-
-	}
-
-	.Hijo1_text3 {
-   
-   		padding-top: 6%;
-	
-	}
-
-	.Art4_Hijo2{
-
-		width: 100%;
-		height: 47%;
-		margin-right: 0%;
-		display: inline-block;
-		text-align: center;
-
-	}
-
-	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4 {
-
-    	margin-right: 0%;
-	
-	}
-
 
 	/*------------footer--------------------------------------------*/
 
@@ -1430,7 +1341,28 @@ footer {
 
 /* Dispositivos Muy Pequeños (Telefónos Mayor A 360px) */
 @media(min-width:360px){
-	
+
+
+	.Logo {
+
+	 	display: none;
+	}
+
+	.Menu  {
+
+
+		width: 100%;
+
+	}
+
+
+	.Menu ul a {
+
+
+		font-size: 16px;
+
+	}
+	/*---------------portada-------------------*/
 	.Inicio h1 {
 
 		font-size: 50px;
@@ -1444,7 +1376,7 @@ footer {
 
 	#abajo {
 
-	    top: 20%;
+	    top: 10%;
 	}
 	/*----------Art1---------------*/
 	.Art1 {
@@ -1473,7 +1405,7 @@ footer {
 	}
 
 	.Art1_article2{
-		
+
 		height: 68%;
 	}
 
@@ -1502,28 +1434,26 @@ footer {
 
 	}
 
-	/*---art1 cursos---*/
+	/*---art1  cursos -----------------*/
 	.Art1_Cuerpo {
 
-    padding-left: 10%;
-    padding-right: 10%;
+    	padding-left: 4%;
+    	padding-right: 4%;
 
 	}
 
 	.Lienzo {
 
-		width: 100%;
-		height: 100%;
 
 	}
 
 	.TargetF1C1, .TargetF1C2, .TargetF2C1, .TargetF2C2 {
 
-		margin: 0%;
-		display:block;
-		width: 80%;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin: 0 auto;
+	    display: block;
+	    width: 90%;
+	    margin-bottom: 4%;
+
 	}
 
 
@@ -1538,6 +1468,13 @@ footer {
 		padding-bottom: 0%;
 	}
 
+	.InfoTF1C1 , .InfoTF1C2 , .InfoTF2C1 , .InfoTF2C2 {
+
+		padding-top:  2%;
+		padding-bottom:  2%;
+
+	}
+
 	.InfoTF1C1 p, .InfoTF1C2 p, .InfoTF2C1 p, .InfoTF2C2 p{
 
 		font-size: 20px;
@@ -1549,7 +1486,7 @@ footer {
 	.Art2_titulo {
 
 		height: 5%;
-	 
+
 	}
 
 	.Art2_titulo h1{
@@ -1567,7 +1504,7 @@ footer {
 
 	.Art2_ContHijo1, .Art2_ContHijo2, .Art2_ContHijo3, .Art2_ContHijo4{
 
-		margin-right: 0%; 
+		margin-right: 0%;
 		margin-left: 0%;
 		width: 100%;
 		height: 25%;
@@ -1608,7 +1545,7 @@ footer {
 		border-top: 2px solid #DB00FF;
 		border-right: 2px solid #FB004F;
 
-	}	
+	}
 
 	/*---Contenedortextos------*/
 
@@ -1643,13 +1580,7 @@ footer {
 
 	}
 
-
-
 	/*----------Art3----------------*/
-
-
-
-
 
 	.Art3_Cuerpo1{
 
@@ -1660,8 +1591,6 @@ footer {
 		padding-bottom: 3%;
 
 	}
-
-
 
 	.Art3_Cuerpo2{
 
@@ -1674,55 +1603,9 @@ footer {
 
 	}
 
+	.ContHijo1_titulo1, .ContHijo1_titulo2{
 
-
-	/*-------------------------art4----------------------*/
-
-		.Art4_Hijo1{
-
-		display: inline-block;
-		float: none;
-		width: 100%;
-		height: 40%;
-
-	}
-
-	.Hijo1_text1{
-
-		padding-top: 6%;
-		font-size: 55px;
-
-	}
-
-	#Hijo1_img p {
-
-		width: 100%;
-		padding-bottom: 2%;
-		text-align: center;
-
-	}
-
-	.Hijo1_text3 {
-   
-   		padding-top: 6%;
-	
-	}
-
-	.Art4_Hijo2{
-
-		width: 100%;
-		height: 47%;
-		margin-right: 0%;
-		display: inline-block;
-		text-align: center;
-
-	}
-
-	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4 {
-
-    	margin-right: 0%;
-    	height:  95%;
-	
+		font-size: 25px;
 	}
 
 
@@ -1783,12 +1666,35 @@ footer {
 /* Dispositivos Pequeños (Tablets Y Telefonos Mayor A 600px) */
 @media(min-width:600px){
 
+
+	.Logo {
+
+	 	display: block;
+	}
+
+
+	.Menu  {
+
+
+		width: 80%;
+
+	}
+
+
+	.Menu ul a {
+
+		font-size: 23px;
+
+	}
+
+
 	.Art1_Cuerpo h3 {
 
     	text-align: center;
 
 	}
 
+ 	/*----------------art2------------------------------*/
 	.ContHijo1_img {
     	height: 60%;
     	width: 15%;
@@ -1808,17 +1714,15 @@ footer {
     	padding-top: 5%;
 	}
 
-	/*-------------Art4--------------*/
 
-	.Art4_Hijo1 {
+	/*------------------art3-----------------------*/
 
-		margin-top: 5%;
+	.ContHijo1_titulo1, .ContHijo1_titulo2{
+
+		font-size: 31px;
 
 	}
 
-	.Hijo1_text3 {
-    	padding-top: 3%;
-	}
 
 }
 
@@ -1852,8 +1756,7 @@ footer {
 
 	.Lienzo {
 
-		width: 88%;
-		height: 65%;
+
 
 	}
 
@@ -1862,8 +1765,9 @@ footer {
 		display: inline-block;
 		width: 43%;
 		height: 115px;
-	   	margin-left: 2%;
-	   	margin-right: 2%;
+		margin-right: 0%;
+		margin-left: 0%;
+		margin-bottom: 0%;
 	}
 
 
@@ -1871,11 +1775,22 @@ footer {
 
 		padding-bottom: 5%;
 	}
+	.TargetsF1 {
+		
+		padding-top: 4%;
+	}
 
+	.InfoTF1C1 , .InfoTF1C2 , .InfoTF2C1 , .InfoTF2C2 {
+
+		padding-top: 5%;
+		padding-bottom: 5%;
+
+	}
 
 	.InfoTF1C1 p, .InfoTF1C2 p, .InfoTF2C1 p, .InfoTF2C2 p{
 
 		font-size: 180%;
+
 
 	}
 
@@ -1913,7 +1828,7 @@ footer {
 
 	.Art2_ContHijo1, .Art2_ContHijo2, .Art2_ContHijo3, .Art2_ContHijo4{
 
-		margin-right: 2%; 
+		margin-right: 2%;
 		margin-left: 2%;
 		width: 20%;
 		height: 90%;
@@ -1958,19 +1873,6 @@ footer {
 	}
 
 
-	/*------------Art4-----------------*/
-
-
-	.Hijo1_text3 {
-
-    	padding-top: 1%;
-	}
-
-	.Art4_Hijo2 {
-
-    	height: 52%;
-
-	}
 }
 
 /* Dispositivos Grandes (Laptop/Escritorio Mayores A 992px) */
@@ -2000,7 +1902,7 @@ footer {
 
 	.Art1 h2{
 
-		font-size: 43px;
+		font-size: 52px;
 
 	}
 
@@ -2008,7 +1910,8 @@ footer {
 
 	.Art1_Cuerpo h3{
 
-		text-align:left;
+		font-size: 25px;
+		text-align: justify;
 
 	}
 
@@ -2022,7 +1925,7 @@ footer {
 	}
 
 	.Art1_boton input{
-		
+
 		padding: 0;
 		margin-top: 0px;
 		margin-left: 26%;
@@ -2055,8 +1958,7 @@ footer {
 
 	.Lienzo {
 
-		width: 100%;
-		height: 82%;
+
 	}
 
 
@@ -2076,7 +1978,7 @@ footer {
 	.TargetF1C1, .TargetF1C2, .TargetF2C1, .TargetF2C2 {
 
 		width: 45%;
-		height: 10%;
+		height: 9%;
 	    margin-right: 0%;
 
 	}
@@ -2093,14 +1995,14 @@ footer {
 	.aside_img1{
 
 		width: 90%;
-		height: 48%;    
+		height: 48%;
 	}
 
 	.aside_img2{
 
 		width: 60%;
-		height: 30%;   
-	    left: 9%; 
+		height: 30%;
+	    left: 9%;
 	}
 
 	/*----------Articulo 2----------------------------*/
@@ -2135,68 +2037,6 @@ footer {
 
 
 
-	/*----------Articulo 4----------------------------*/
-
-
-
-
-
-	.Art4_Hijo1{
-
-		margin-top: 11%;
-		float: right;
-		width: 30%;
-		height:55%;
-
-	}
-
-
-	.Art4_Hijo2{
-
-		width: 70%;
-		height: 100%;
-		margin-right: 30%;
-		background-color: green;
-		text-align: right;
-		display: block;
-	}
-
-	/*-------imagenes---------*/
-	#Hijo1_img p{
-
-		text-align:unset;
-
-	}
-
-	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4{
-
-		margin-right: 1%;
-
-	}
-
-
-	/*-------textos---------*/
-
-	.Hijo1_text1{
-
-		font-size: 57px;
-		padding-top: 20%;
-	}
-
-
-	.Hijo1_text2{
-
-		text-align: center;
-	}
-
-	.Hijo1_text3{
-
-		text-align: center;
-
-	}
-
-
-
 
 }
 
@@ -2206,7 +2046,7 @@ footer {
 
 	#abajo{
 
-	  top: 25%;
+	  top: 15%;
 
 	}
 
@@ -2215,8 +2055,8 @@ footer {
 
 	.Art2_titulo{
 
-		height: 15%;		
-	
+		height: 15%;
+
 	}
 
 	.Art2_titulo h1{
@@ -2288,44 +2128,9 @@ footer {
 	    height: 40%;
 	    padding-left: 7%;
 	    padding-right: 7%;
-	    padding-bottom: 0%; 
-	    padding-top: 0%; 
-
-	}
-
-	/*---------Art4---------*/
-
-	.Art3_Cuerpo1 {
-	    width: 74%;
-	    height: 46%;
-	    padding-left: 12%;
-	    padding-right: 12%;
-	    padding-bottom: 1%;
-	}
-
-	.Art3_Cuerpo2 {
-	    width: 74%;
-	    height: 43%;
-	    padding-left: 12%;
-	    padding-right: 12%;
 	    padding-bottom: 0%;
 	    padding-top: 0%;
-	}
 
-	.Hijo1_text1 {
-
-    	font-size: 68px;
-
-	}
-
-	.Hijo1_text2 {
-
-    	padding-top: 3%;
-	}
-
-	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4 {
-
-    	height: 98%;
 	}
 
 }
@@ -2372,9 +2177,9 @@ footer {
 
 	    margin: 0;
 	   	position: absolute;
-	    top: 5%;   
-	    left: 75%; 
-	    margin-right: -75%;                     
+	    top: 5%;
+	    left: 75%;
+	    margin-right: -75%;
 	    transform: translate(-75%, -5%);
 
 	    background-image: url("../images/img_educacion3.jpg");
@@ -2397,9 +2202,9 @@ footer {
 	    /*left: calc(50% - 140px);*/
 	    margin: 0;
 	   	position: absolute;
-	    top: 95%;   
-	    left: -2%; 
-	    margin-right: -5%;                     
+	    top: 95%;
+	    left: -2%;
+	    margin-right: -5%;
 	    transform: translate(-5%, -95%);
 
 	    background-image: url("../images/img_educacion4.jpg");
@@ -2417,7 +2222,6 @@ footer {
 
 		width: 40%;
 		height: 140px;
-	    margin-right: 25px;
 
 	}
 
@@ -2428,21 +2232,6 @@ footer {
 
 		padding-top: 5%;
 
-	}
-
-	/*--------------Art4-------------------*/
-
-	.Hijo1_text1 {
-    	font-size: 74px;
-	}
-
-	.Hijo1_text2 {
-    	font-size: 40px;
-	}
-
-	.Hijo1_text3 {
-
-    	padding-top: 5%;
 	}
 
 }

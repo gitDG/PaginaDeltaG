@@ -1,0 +1,1374 @@
+body {
+
+	margin: 0;
+	font-size: 100%;
+	background: black;
+}
+
+header {
+
+	width: 100%;
+}
+
+section {
+
+	width: 100%;
+}
+
+footer {
+
+	width: 100%;
+	background: black;
+}
+
+a {
+
+	text-decoration: none;
+}
+
+/*--------------Encabezado------------------*/
+#EduFont-A {
+
+	color: rgb(12,1,255);
+	font-family: 'Roboto Slab', serif;
+}
+
+#EduFont-B {
+
+	color: rgb(134,218,80);
+	font-family: 'Roboto Slab', serif;
+}
+
+
+.NavBar {
+
+	width: 100%;
+}
+
+.Logo {
+
+	width: 10%;
+	height: 60px;
+	float: left;
+ 	display: block;
+}
+
+.Logo img {
+
+	padding-left: 20px;
+	padding-top: 15px;
+	size: 100% 100%;
+}
+
+.Menu {
+
+	width: 80%;
+	height: 60px;
+	display: inline-block;
+}
+
+.Menu ul {
+
+	margin: 0;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.Menu ul a {
+
+	color: white;
+	font-family: robot_condensed;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.Menu ul li {
+
+	padding: 2%;
+	color: white;
+}
+
+header .NavBar .Menu li:hover{
+
+	background: rgba(134,218,80,0.9);
+}
+
+.Login {
+	display: none;
+	width: 10%;
+	height: 60px;
+	/*display: inline-block;*/
+	float: right;
+	color: white;
+}
+
+a:hover {
+
+	color: rgb(161,188,59);
+	cursor: pointer;
+}
+
+
+/*----------------Estilo cuerpo--------------------*/
+/*-----------Contenedor de la pagina ---------------*/
+ .Cont-PagCont {
+
+  background: yellow;
+  width: 100%;
+  height: 710px;
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.Cont-Gradiente{
+
+	width: 100%;
+	height: 100%;
+	display:flex;
+	justify-content: center;
+  	align-items: center;
+  	overflow: hidden;
+}
+
+.Cont-Cuadro{
+
+
+	width: 60%;
+	height: 520px;
+
+	/*-webkit-box-shadow: 0px 2px 14px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 14px 4px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 14px 4px rgba(0,0,0,0.75);*/
+
+	-webkit-box-shadow: 2px 1px 9px 7px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 1px 9px 7px rgba(0,0,0,0.75);
+	box-shadow: 2px 1px 9px 7px rgba(0,0,0,0.75);
+
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.Cont-Titulo{
+
+	background-image: linear-gradient(0deg, rgba(8,234,27,1) 0%, rgba(144,202,0,0.6) 100% );
+	width: 100%;
+	height: 10%;
+	padding-top: 15px;
+	text-align: center;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.Cont-Titulo p{
+
+	margin: 0px;
+	color: black;
+	font-size: 29px;
+}
+
+.Cont-Contacto{
+
+
+	/*background: rgb(225, 227, 227);
+	background: rgb(74, 90, 244);*/
+	width: 100%;
+	height:90%;
+	display:inline-flex;
+
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	/*-moz-border-radius: 5px ;
+	-webkit-border-radius: 5px;*/
+}
+
+
+
+/*---------------ContMensaje--------------------*/
+.Cont-Mensaje{
+
+	background: rgb(255,255,255);
+	width: 60%;
+	height:100%;
+	border-bottom-left-radius: 15px;
+}
+
+.Titulo-Mensaje{
+
+	margin-top: 5px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.Titulo-Mensaje p {
+
+	margin: 0;
+	padding: 0;
+	padding-top:  5px;
+	font-family: 'Stylish', sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	padding-bottom: 15px;
+}
+
+#imputMensaje{
+
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 79%;
+	height: 32px;
+	background-color: black;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: rgb(161, 176, 178);
+	font-size: 17px;
+}
+
+.Div-LM p{
+
+	margin: 0;
+	padding: 0;
+}
+
+.Div-LM #LetraMensaje:nth-child(1){
+
+
+	resize: none;
+	margin: 0 auto;
+	padding: 0;
+	margin-bottom: 20px;
+	width: 80%;
+	background-color: black;
+	margin-left: 10%;
+	margin-right: 25%;
+	font-size: 17px;
+	color: rgb(161, 176, 178);
+	text-align:left;
+	height: 140px;
+	border: 15px;
+}
+
+.Div-BM #enviarDatos:nth-child(1){
+
+	padding: 0;
+	color: rgb(0,0,0);
+	text-align:center;
+	height: 40px;
+	width: 42%;
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: #08ea1b;
+	background-image: linear-gradient(0deg, #08ea1b 0%, #90CA00 100%);
+	font-size: 20px;
+	font-family: 'Karla', sans-serif;
+	font-family: 'Kaushan Script', cursive;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.Div-BM #enviarDatos:nth-child(1):hover { background-position: right center; }
+
+/*-------------Contactos Disponibles-------------------*/
+
+.Cont-Contactos{
+
+	background-color: rgba(0,0,0,0.8);
+	width: 40%;
+	height: 100%;
+	border-bottom-right-radius: 15px;
+}
+
+.Cont-Contactos p {
+
+	color: white;
+}
+
+.CC-Contacto {
+
+	width: 100%;
+	height: 150px;
+	margin-top: 15px;
+}
+
+
+
+.CC-Contacto1 {
+
+	width: 45%;
+	height: 120px;
+
+	background-image: url("../images/LogoFace.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-color: #cccccc;*/
+}
+
+.Txt-Contacto1 {
+
+	display: inline-block;
+	width: 50%;
+	height: 150px;
+}
+
+.Txt-Contacto1 p{
+
+	padding-top: 15px;
+	font-size: 22px;
+	text-align:center;
+
+}
+
+.CC-Contacto3 {
+
+
+	display: block;
+	width: 38%;
+	height: 120px;
+
+	background-image: url("../images/Logo-Whatsapp.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+}
+
+
+.Txt-Contacto3 {
+
+	display: inline-block;
+	width: 50%;
+	height: 150px;
+}
+
+.Txt-Contacto3 p{
+
+	padding-top: 0px;
+	font-size: 22px;
+	text-align:center;
+}
+
+.CC-Contacto4 {
+
+	width: 75%;
+	height: 100px;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	background-image: url("../images/Logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+}
+
+.Txt-Contacto {
+
+	display: inline-block;
+}
+
+/*------articulo3------------*/
+
+
+/* ----- Diseño Foter -----*/
+.ContPiePagina {
+
+	width: 100%;
+}
+
+.ContPiePagina p {
+
+	margin: 0;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#By {
+
+	font-size: 10px;
+}
+
+#DeltaG {
+
+	text-decoration: none;
+}
+
+.ContPiePagina a {
+
+	color: rgb(161,188,59);
+}
+
+/*---------------------------------fuentes de texto--------------------------------*/
+
+@font-face {
+  font-family: robot_condensed;
+  src: url("../fonts/RobotoCondensed-Light.ttf");
+}
+
+/*---------------------------Responsive ------------------------------*/
+/* Dispositivos Muy Pequeños (Telefónos Menor A 360px) */
+@media(max-width:360px){
+
+	.Logo {
+
+		display: none;
+	}
+
+
+	.Menu  {
+
+
+		width: 100%;
+
+	}
+
+	.Menu ul a {
+
+
+		font-size: 16px;
+
+	}
+
+
+	/* Cuerpo */
+
+	.Cont-PagCont {
+
+	  height: 1000px;
+	}
+
+
+	.Cont-Cuadro{
+
+		width: 82%;
+		height: 70%;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+
+	}
+
+	.Cont-Titulo {
+
+		height: 10%;
+		margin: 0;
+		padding: 0;
+  		padding-top: 15px;
+
+
+	}
+
+
+	.Cont-Contacto{
+
+		display: inline-block;
+	}
+
+
+
+	.Cont-Contactos{
+
+		/*background: rgb(225, 227, 227);
+		background: rgb(74, 90, 244);*/
+		width: 100%;
+		height:25%;
+		display: inline-block;
+
+		border-bottom-left-radius: 15px;
+	}
+
+
+
+	.CC-Contacto {
+
+		margin: 0;
+		padding: 0;
+		width: 27%;
+		height: 72px;
+		display: inline-block;
+		margin-left: 7px;
+
+	}
+
+
+	.CC-Contacto1 {
+
+		padding: 0;
+		margin: 0;
+		margin-top: 30px;
+		padding-left: 10%;
+		width: 73%;
+		height: 75px;
+
+	}
+
+
+
+
+	.CC-Contacto3 {
+
+		padding: 0;
+		margin: 0;
+		margin-top: 30px;
+		margin-left: 4%;
+		padding-left: 7%;
+		width: 61%;
+		height: 72px;
+
+	}
+
+
+
+	.CC-Contacto4 {
+
+		padding: 0;
+		margin: 0;
+		margin-top: 30px;
+		width: 100%;
+		height: 75px;
+
+	}
+
+
+
+
+	.Txt-Contacto1{
+
+		display: none;
+
+	}
+	.Txt-Contacto3{
+
+		display: none;
+
+	}
+	.Txt-Contacto4{
+
+		display: none;
+
+	}
+
+
+
+
+
+
+
+	/*---------------ContMensaje--------------------*/
+	.Cont-Mensaje{
+
+		background: rgb(255,255,255);
+		width: 100%;
+		height:75%;
+		border-bottom-left-radius: 0;
+
+	}
+
+	.Titulo-Mensaje{
+
+		margin: 0;
+	}
+
+
+
+	.Div-LM p{
+
+		margin: 0;
+		padding: 0;
+	}
+
+
+}
+
+/* Dispositivos Muy Pequeños (Telefónos Mayor A 360px) */
+@media(min-width:360px){
+
+	.Logo {
+
+		display: none;
+	}
+
+
+	.Menu  {
+
+
+		width: 100%;
+
+	}
+
+	.Menu ul a {
+
+
+		font-size: 16px;
+
+	}
+
+
+		/* Cuerpo */
+
+	.Cont-PagCont {
+
+	  height: 1000px;
+	}
+
+
+	.Cont-Cuadro{
+
+		width: 82%;
+		height: 70%;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+
+	}
+
+	.Cont-Titulo {
+
+		height: 10%;
+		margin: 0;
+		padding: 0;
+
+	}
+
+
+	.Cont-Contacto{
+
+		display: inline-block;
+	}
+
+
+
+	.Cont-Contactos{
+
+		/*background: rgb(225, 227, 227);
+		background: rgb(74, 90, 244);*/
+		width: 100%;
+		height:25%;
+		display: inline-block;
+
+		border-bottom-left-radius: 15px;
+	}
+
+
+	.CC-Contacto {
+
+		margin: 0;
+		padding: 0;
+		width: 27%;
+		height: 72px;
+		display: inline-block;
+		margin-left: 7px;
+
+	}
+
+
+	.CC-Contacto1 {
+
+		padding: 0;
+		margin: 0;
+		margin-top: 30px;
+		padding-left: 11%;
+		width: 74%;
+		height: 75px;
+
+	}
+
+
+
+
+	.CC-Contacto3 {
+
+		padding: 0;
+		margin: 0;
+		margin-top: 30px;
+		margin-left: 5%;
+		padding-left: 8%;
+		width: 62%;
+		height: 72px;
+
+	}
+
+
+
+	.CC-Contacto4 {
+
+		padding: 0;
+		margin: 0;
+		margin-top: 30px;
+		width: 100%;
+		height: 75px;
+
+	}
+
+
+	.Txt-Contacto1{
+
+		display: none;
+
+	}
+	.Txt-Contacto3{
+
+		display: none;
+
+	}
+	.Txt-Contacto4{
+
+		display: none;
+
+	}
+
+
+
+	/*---------------ContMensaje--------------------*/
+	.Cont-Mensaje{
+
+		background: rgb(255,255,255);
+		width: 100%;
+		height:75%;
+		border-bottom-left-radius: 0;
+
+	}
+
+	.Titulo-Mensaje{
+
+		margin: 0;
+	}
+
+
+}
+
+/*Extra*/
+@media(min-width:386px){
+
+	.Cont-Titulo{
+
+		padding-top: 19px;
+
+	}
+
+}
+
+/* Extra */
+@media(min-width:470px){
+	/* Cuerpo */
+
+	.Cont-PagCont {
+
+	  height: 1000px;
+	}
+
+
+	.Cont-Cuadro{
+
+		width: 82%;
+		height: 70%;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+
+	}
+
+	.Cont-Titulo {
+
+		height: 10%;
+		margin: 0;
+		padding: 0;
+  		padding-top: 15px;
+
+
+	}
+
+
+	.Cont-Contacto{
+
+		display: inline-block;
+	}
+
+
+
+	.Cont-Contactos{
+
+		/*background: rgb(225, 227, 227);
+		background: rgb(74, 90, 244);*/
+		width: 100%;
+		height:25%;
+		display: inline-block;
+
+		border-bottom-left-radius: 15px;
+	}
+
+
+
+	.CC-Contacto {
+
+		margin: 0;
+		padding: 0;
+		width: 27%;
+		height: 72px;
+		display: inline-block;
+		margin-left: 8px;
+
+	}
+
+
+	.CC-Contacto1 {
+
+		padding: 0;
+		margin: 0;
+		margin-top: 28px;
+		padding-left: 11%;
+		width: 74%;
+		height: 80px;
+
+	}
+
+
+
+
+	.CC-Contacto3 {
+
+		padding: 0;
+		margin: 0;
+		margin-top: 30px;
+		margin-left: 5%;
+		padding-left: 8%;
+		width: 62%;
+		height: 72px;
+
+	}
+
+
+
+	.CC-Contacto4 {
+
+		padding: 0;
+		margin: 0;
+		margin-top: 30px;
+		width: 100%;
+		height: 75px;
+
+	}
+
+
+	.Txt-Contacto1{
+
+		display: none;
+
+	}
+	.Txt-Contacto3{
+
+		display: none;
+
+	}
+	.Txt-Contacto4{
+
+		display: none;
+
+	}
+
+
+
+	/*---------------ContMensaje--------------------*/
+	.Cont-Mensaje{
+
+		background: rgb(255,255,255);
+		width: 100%;
+		height:75%;
+		border-bottom-left-radius: 0;
+
+	}
+
+	.Titulo-Mensaje{
+
+	margin: 0;
+	}
+
+}
+
+/* Dispositivos Pequeños (Tablets Y Telefonos Mayor A 600px) */
+@media(min-width:600px){
+
+	.Logo {
+
+	 	display: block;
+	}
+
+
+	.Menu  {
+
+
+		width: 80%;
+
+	}
+
+
+	.Menu ul a {
+
+		font-size: 23px;
+
+	}
+
+
+	.Art1_Cuerpo h3 {
+
+    	text-align: center;
+
+	}
+
+
+	/* Cuerpo */
+
+	.Cont-PagCont {
+
+	  height: 1000px;
+	}
+
+
+	.Cont-Cuadro{
+
+		width: 82%;
+		height: 70%;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+
+	}
+
+	.Cont-Titulo {
+
+		height: 10%;
+		margin: 0;
+		padding: 0;
+		padding-top: 15px;
+
+	}
+
+
+	.Cont-Contacto{
+
+		display: inline-block;
+	}
+
+
+
+	.Cont-Contactos{
+
+		/*background: rgb(225, 227, 227);
+		background: rgb(74, 90, 244);*/
+		width: 100%;
+		height:25%;
+		display: inline-block;
+
+		border-bottom-left-radius: 15px;
+	}
+
+
+
+	.CC-Contacto {
+
+		margin: 0;
+		padding: 0;
+		margin-top: 28px;
+		width: 27%;
+		height: 85px;
+		display: inline-block;
+		margin-left: 20px;
+
+	}
+
+
+	.CC-Contacto1 {
+
+		padding: 0;
+		margin: 0;
+		padding-left: 11%;
+		width: 55%;
+		height: 80px;
+
+	}
+
+
+
+
+	.CC-Contacto3 {
+
+		padding: 0;
+		margin: 0;
+		margin-left: 5%;
+		padding-left: 8%;
+		padding-top: 15px;
+		width: 60%;
+		height: 72px;
+
+	}
+
+
+
+	.CC-Contacto4 {
+
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: 75px;
+
+	}
+
+
+
+
+	.Txt-Contacto1{
+
+		display: none;
+
+	}
+	.Txt-Contacto3{
+
+		display: none;
+
+	}
+	.Txt-Contacto4{
+
+		display: none;
+
+	}
+
+
+
+
+	/*---------------ContMensaje--------------------*/
+	.Cont-Mensaje{
+
+		background: rgb(255,255,255);
+		width: 100%;
+		height:75%;
+		border-bottom-left-radius: 0;
+
+	}
+
+	.Titulo-Mensaje{
+
+	margin: 0;
+	}
+
+}
+
+
+	/* Extra */
+@media(min-width:732px){
+
+	/* Cuerpo */
+
+	.Cont-PagCont {
+
+	  height: 1000px;
+	}
+
+
+	.Cont-Cuadro{
+
+		width: 82%;
+		height: 70%;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+
+	}
+
+	.Cont-Titulo {
+
+		height: 10%;
+		margin: 0;
+		padding: 0;
+  		padding-top: 15px;
+
+
+	}
+
+
+	.Cont-Contacto{
+
+		display: inline-block;
+	}
+
+
+
+	.Cont-Contactos{
+
+		/*background: rgb(225, 227, 227);
+		background: rgb(74, 90, 244);*/
+		width: 100%;
+		height:25%;
+		display: inline-block;
+
+		border-bottom-left-radius: 15px;
+	}
+
+
+
+	.CC-Contacto {
+
+		margin: 0;
+		padding: 0;
+		margin-top: 28px;
+		width: 27%;
+		height: 85px;
+		display: inline-block;
+		margin-left: 20px;
+
+	}
+
+
+	.CC-Contacto1 {
+
+		padding: 0;
+		margin: 0;
+		padding-left: 11%;
+		width: 55%;
+		height: 80px;
+
+	}
+
+
+
+
+	.CC-Contacto3 {
+
+		padding: 0;
+		margin: 0;
+		margin-left: 5%;
+		padding-left: 8%;
+		padding-top: 15px;
+		width: 60%;
+		height: 72px;
+
+	}
+
+
+
+	.CC-Contacto4 {
+
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		height: 75px;
+
+	}
+
+
+
+	/*---------------ContMensaje--------------------*/
+	.Cont-Mensaje{
+
+		background: rgb(255,255,255);
+		width: 100%;
+		height:75%;
+		border-bottom-left-radius: 0;
+
+	}
+
+	.Titulo-Mensaje{
+
+	margin: 0;
+	}
+
+
+}
+
+
+/*Cambio de vertical a horizontal*/
+@media(min-width:768px) {
+
+	a:hover {
+
+		color: rgb(161,188,59);
+		cursor: pointer;
+	}
+
+	/*Cuerpo*/
+	.Cont-PagCont {
+
+		height: 710px;
+
+	}
+
+	.Cont-Cuadro{
+
+
+		width: 70%;
+		height: 520px;
+
+		/*-webkit-box-shadow: 0px 2px 14px 4px rgba(0,0,0,0.75);
+	    -moz-box-shadow: 0px 2px 14px 4px rgba(0,0,0,0.75);
+	    box-shadow: 0px 2px 14px 4px rgba(0,0,0,0.75);*/
+
+		-webkit-box-shadow: 2px 1px 52px 31px rgba(0,0,0,0.75);
+		-moz-box-shadow: 2px 1px 52px 31px rgba(0,0,0,0.75);
+		box-shadow: 2px 1px 52px 31px rgba(0,0,0,0.75);
+
+	    border-top-left-radius: 15px;
+	    border-top-right-radius: 15px;
+	}
+
+	.Cont-Titulo{
+
+		background-image: linear-gradient(0deg, rgba(8,234,27,1) 0%, rgba(144,202,0,0.6) 100% );
+		width: 100%;
+		height: 10%;
+		text-align: center;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+	}
+
+	.Cont-Contacto{
+
+
+		/*background: rgb(225, 227, 227);
+		background: rgb(74, 90, 244);*/
+		width: 100%;
+		height:90%;
+		display:inline-flex;
+
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+		/*-moz-border-radius: 5px ;
+		-webkit-border-radius: 5px;*/
+	}
+
+	.Cont-Contactos{
+
+		background-color: rgba(0,0,0,0.8);
+		width: 40%;
+		height: 97%;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 15px;
+	}
+
+	.CC-Contacto {
+
+		margin:0;
+		padding:0;
+		margin-top: 50px;
+		margin-left: 12%;
+		margin-right: 10%;
+		width: 125px;
+		height: 100px;
+
+
+	}
+
+	.CC-Contacto1 {
+
+		margin:0;
+		padding:0;
+		padding-left: 10px;
+		width: 105px;
+		height: 90px;
+
+	}
+
+	.CC-Contacto3 {
+
+		margin:0;
+		padding:0;
+		width: 105px;
+		height: 85px;
+		padding-left: 14%;
+
+	}
+
+
+	.CC-Contacto4 {
+
+		margin:0;
+		padding:0;
+		width: 100%;
+
+
+	}
+
+	/*Para Contenedor mensaje*/
+	.Cont-Mensaje{
+
+		height: 97%;
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 0;
+	}
+}
+
+/* Dispositivos Medianos (Mayores A 768px)*/
+@media(min-width:900px){
+
+	.CC-Contacto {
+
+		margin-left: 20%;
+		margin-right: 10%;
+
+	}
+
+
+
+}
+
+
+/* Dispositivos Grandes (Laptop/Escritorio Mayores A 992px) */
+@media(min-width:992px){
+
+
+	.CC-Contacto {
+
+		margin-left: 20%;
+		margin-right: 10%;
+
+
+	}
+
+		.CC-Contacto1 {
+
+		width: 115px;
+		height: 100px;
+
+	}
+
+	.CC-Contacto3 {
+
+		width: 115px;
+		height: 100px;
+
+	}
+
+
+	.CC-Contacto4 {
+
+		width: 100%;
+		height: 100px;
+
+
+	}
+
+}
+
+/* Dispositivos ExtraGrandes (Mayores A 1200px) */
+/* Extra */
+@media(min-width:1182px){
+
+
+
+}
+
+/* Extra */
+@media(min-width:1294px){
+}
+
+/* Extra */
+@media(min-width:1380px){
+}
+
+/* Extra */
+@media(min-width:1419px){
+}
+
+@media(min-width: 1500px) {
+}

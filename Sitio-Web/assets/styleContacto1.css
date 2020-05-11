@@ -1,0 +1,93 @@
+html,body {
+
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.contenedor1{
+
+  height: 100%;
+  background-color: red;
+}
+
+.contenedor2 {
+
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  background: red;
+  background: linear-gradient(to bottom, #ffffff, #ff8855); /* Standard syntax */
+}
+
+.square1{
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(to bottom, rgba(240,240,180, 0.2), rgba(100, 20, 30, 0.8));
+
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: squareMove 2.25s;
+}
+
+.square2{
+  width: 350px;
+  height: 350px;
+  background: linear-gradient(to bottom, rgba(240,240,180, 0.2), rgba(100, 20, 30, 0.8));
+
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: squareMove 2.25s;
+  
+}
+
+.square3{
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(to bottom, rgba(240,240,180, 0.2), rgba(100, 20, 30, 0.8));
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  animation: squareMove 2.25s;
+}
+
+
+.text {
+  font-family: "helvetica", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 32px;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) ;
+  color: white;
+  animation: textMove 2.5s;
+}
+
+@keyframes squareMove {
+  from {top: -50%;}
+  to {top: 50%;}
+}
+
+@keyframes textMove {
+  from {top: -50%;}
+  to {top: 50%;}
+}

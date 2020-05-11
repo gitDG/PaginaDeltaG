@@ -22,11 +22,212 @@ p{
 
 /*-----------CUERPO PAGINA------------*/
 
+/*----------------encabezado---------------*/
+/* ----- Diseño Header ----- */
+header {
+
+	
+  	overflow: hidden;
+  	/*background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);*/
+	/*background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; */
+	/*	background-image: linear-gradient(to right, #434343 0%, black 100%);*/
+	/*
+	background: #757F9A;  /* fallback for old browsers */
+	/*
+	background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+	/*
+	background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	background-color:black;
+
+ }
+
+
+.NavBar {
+	
+	width: 100%;
+}
+
+.Logo {
+
+	width: 10%;
+	height: 60px;
+	float: left;
+ 	display: block;
+}
+
+.Logo img {
+
+	padding-left: 20px;
+	padding-top: 15px;
+	size: 100% 100%;
+}
+
+.Menu {
+
+	width: 80%;
+	height: 60px;
+	display: inline-block;
+}
+
+.Menu ul {
+
+	margin: 0;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.Menu ul a {
+
+	color: white;
+	font-family: robot_condensed;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.Menu ul li {
+
+	padding: 2%;
+	color: white;
+}
+
+header .NavBar .Menu li:hover{
+
+	background: rgba(134,218,80,0.9);
+}
+
+.Login {
+	display: none;
+	width: 10%;
+	height: 60px;
+	/*display: inline-block;*/
+	float: right;
+	color: white;
+}
+
+
+/*----------Articulo 4----------------------------*/
+.Art4{
+
+
+	height: 100%;
+
+}
+
+.Art4_Cuerpo{
+
+	width: 90%;
+	height: 90%;
+	padding-top: 4%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+
+}
+
+
+.Art4_Hijo1{
+	margin:0;
+	padding: 0;
+	margin-top: 11%;
+	float: right;
+	width: 30%;
+	height:55%;
+
+}
+
+
+.Art4_Hijo2{
+
+	width: 70%;
+	height: 100%;
+	margin-right: 30%;
+	text-align: right;
+}
+
+#Hijo1_img p{
+
+	width: 90%;
+	padding-bottom: 6%;
+}
+
+.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4{
+
+	height: 90%;
+	width: 23%;
+	margin-right: 1%;
+	display: inline-block;
+
+}
+
+
+.Hijo2_img1{
+
+	background-image: url("../images/Nosotros4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+
+.Hijo2_img2{
+
+	background-image: url("../images/Nosotros1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+
+}
+
+.Hijo2_img3{
+
+	background-image: url("../images/Nosotros2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 40% 50%;
+}
+
+.Hijo2_img4{
+
+	background-image: url("../images/Nosotros3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 55% 50%;
+}
+
+
+.Hijo1_text1{
+
+	font-family: anton_regular;
+	font-size: 70px;
+	color: #015F06;
+}
+
+.Hijo1_text2{
+
+	font-size: 35px;
+	color: #1F9700;
+
+}
+
+.Hijo1_text3{
+
+	font-size: 20px;
+	color: #9E9E9E;
+
+}
+
+
+
+
+
+
 .Seccion_Mision{
 
 	height: 100%;
 	background-color: green;
-	background-image: url("../images/fondoNosotros.png");
+	background-image: url("../images/fondoNosotros.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 110%;
 	background-position: top;
@@ -73,7 +274,7 @@ p{
 .Valores_CajaTexto{
 
 	padding-left: 15%;
-	padding-right: 15%;	
+	padding-right: 15%;
 
 }
 
@@ -93,30 +294,157 @@ p{
 
 }
 
-footer{
 
-	height: 50%;
-	background-color: yellow;
+/*--------------Seccion cursos---------------------------------------------------*/
 
-}
+	.Seccion_Cursos{
 
-.CajaEquipo{
+		height: 64%;
+		background-color: rgba(209,207,209,1);
 
-	height: 70%;
-	padding-top:5%;
-	padding-left: 10%;
-	padding-right: 10%;
-	background-color: grey;
+	}
+
+	.Cursos_titulo{
+
+		text-align: center;
+		color: #1F9700;
+
+	}
+
+	.Cursos_titulo p{
+
+		padding-top: 1%;
+		font-size: 150%;
+		text-align: left;
+		font-family: orbitron_bold;
+		font-weight: bold;
+	}
+
+	.cursos_list{
+
+		width: 100%;
+		content: " ";
+		display: table;
+		margin: 0;
+    	padding: 0;
+    	padding-top:4%;
+    	list-style: none;
+    	/*clear: both;*/
+	}
+
+	.cursos_list>li {
+
+		position: relative;
+		float: left;
+		width: 30%;
+		height: 300px;
+
+	}
+
+	.cursos_list>li:last-child {
+
+		float: right;
+
+	}
+
+	.medio_li{
+
+		margin-left: 5%;
+		margin-right: 5%;
+
+	}
+
+
+	.curso_imagen{
+
+		height: 300px;
+		background-color: orange;
+		background-image: url("../images/img_educacion2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position:top;
+
+	}
+
+
+	.curso_gradiente{
+
+		height: 300px;
+		background-color: rgba(0,0,0,0.4);
+		font-family: actor_regular;
+
+	}
+	.gradiente_texto{
+
+		padding-top: 8%;
+		font-size: 125%;
+		text-align: center;
+		width: 70%;
+		margin: 0 auto;
+		color: white;
+		font-family: robot_condensed;
+	}
+	.gradiente_texto p{
+
+		padding: 5px;
+		background-color: rgba(255,255,255,0.4);
+
+	}
+
+	.curso_info{
+
+		padding-top: 15px;
+		height: 65px;
+		color: grey;
+	}
+
+/*----footer final---*/
+
+/* -----  Footer final --------------------------------------- -----*/
+.footer_final{
+
+	width: 100%;
+	background: black;
+	color: black;
 	text-align: center;
 }
 
-.Caja_Erick, .Caja_Sonia, .Caja_Chanax{
 
-	height: 100%;
-	width: 30%;
-	display: inline-block;
-	margin-right: 1%;
-	background-color: red;
+/* ----- Diseño Foter -----*/
+.ContPiePagina {
+
+	width: 100%;
+}
+
+.ContPiePagina p {
+
+	margin: 0;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#By {
+
+	font-size: 10px;
+}
+
+#DeltaG {
+
+	text-decoration: none;
+}
+
+.ContPiePagina a {
+
+	color: rgb(161,188,59);
+}
+
+
+
+@font-face {
+
+	font-family: robot_condensed;
+	src: url("../fonts/RobotoCondensed-Light.ttf");
 }
 
 @font-face{
@@ -126,11 +454,89 @@ footer{
 
 }
 
+@font-face{
 
-		/* ---------- Responsive ---------- */
-/* Dispositivos Muy Pequeños (Telefónos Menor A 360px) */
+	font-family: orbitron_bold;
+	src: url("../fonts/Orbitron-Bold.ttf");
 
+}
+/*------------------------------------Responsive---------------------*/
+/*____________Dispositivos chicos (telefonos Pequeños)______________*/
 @media(max-width:360px){
+
+
+	.Logo {
+
+		display: none;
+	}
+
+
+	.Menu  {
+
+
+		width: 100%;
+
+	}
+
+	.Menu ul a {
+
+
+		font-size: 16px;
+
+	}
+
+
+
+	/*------------------Art4--------------------*/
+
+	.Art4_Hijo1{
+
+		display: inline-block;
+		float: none;
+		width: 100%;
+		height: 40%;
+
+	}
+
+	.Hijo1_text1{
+
+		padding-top: 6%;
+		font-size: 55px;
+
+	}
+
+	#Hijo1_img p {
+
+		width: 100%;
+		padding-bottom: 2%;
+		text-align: center;
+
+	}
+
+	.Hijo1_text3 {
+
+   		padding-top: 6%;
+
+	}
+
+	.Art4_Hijo2{
+
+		width: 100%;
+		height: 47%;
+		margin-right: 0%;
+		display: inline-block;
+		text-align: center;
+
+	}
+
+	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4 {
+
+    	margin-right: 0%;
+
+	}
+
+
+	/*----------seccion mision-----------*/
 
 	.Seccion_Mision{
 
@@ -140,20 +546,20 @@ footer{
 
 	.Mision_CajaTexto1{
 
-		font-size: 45px;
+		font-size: 43px;
 
-	}	
+	}
 
 
 	.Mision_CajaTexto2{
 
-		font-size: 159px;
+		font-size: 71px;
 
 	}
 
 	.Mision_CajaTexto3{
 
-		font-size: 69px;
+		font-size: 19px;
 
 	}
 
@@ -166,14 +572,14 @@ footer{
 
 	.Valores_CajaTexto1{
 
-		font-size: 159px;
+		font-size: 71px;
 
 
 	}
 
 	.Valores_CajaTexto2{
 
-		font-size: 45px;
+		font-size: 17px;
 
 	}
 
@@ -190,112 +596,426 @@ footer{
 		height: 30%;
 		width: 35%;
 		display:block;
-
+		margin: 0 auto;
 	}
+
 
 }
 
 @media(min-width: 360px){
 
+	.Logo {
 
-	/*-----------CUERPO PAGINA------------*/
+		display: none;
+	}
 
-	.Seccion_Mision{
 
+	.Menu  {
+
+
+		width: 100%;
+
+	}
+
+	.Menu ul a {
+
+
+		font-size: 16px;
+
+	}
+
+
+	/*-------------------------art4----------------------*/
+
+	.Art4_Hijo1{
+
+		display: inline-block;
+		float: none;
+		width: 100%;
+		height: 40%;
+
+	}
+
+	.Hijo1_text1{
+
+		padding-top: 6%;
+		font-size: 55px;
+
+	}
+
+	#Hijo1_img p {
+
+		width: 100%;
+		padding-bottom: 2%;
+		text-align: center;
+
+	}
+
+	.Hijo1_text3 {
+
+   		padding-top: 6%;
+
+	}
+
+	.Art4_Hijo2{
+
+		width: 100%;
+		height: 47%;
+		margin-right: 0%;
+		display: inline-block;
+		text-align: center;
+
+	}
+
+	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4 {
+
+    	margin-right: 0%;
+    	height:  95%;
+
+	}
+
+	/*---------------------seccion mision----------------------------*/
+
+		.Seccion_Mision{
+
+			text-align: center;
+
+		}
+
+		.Mision_CajaTexto1{
+
+			font-size: 43px;
+
+		}
+
+
+		.Mision_CajaTexto2{
+
+			font-size: 71px;
+
+		}
+
+		.Mision_CajaTexto3{
+
+			font-size: 19px;
+
+		}
+
+		.Seccion_Valores{
+
+			text-align: center;
+
+		}
+
+
+		.Valores_CajaTexto1{
+
+			font-size: 71px;
+
+
+		}
+
+		.Valores_CajaTexto2{
+
+			font-size: 17px;
+
+		}
+
+
+		.CajaEquipo{
+
+			height: 70%;
+			padding-left: 5%;
+			padding-right: 5%;
+		}
+
+		.Caja_Erick, .Caja_Sonia, .Caja_Chanax{
+
+			height: 30%;
+			width: 35%;
+			display:block;
+			margin: 0 auto;
+		}
+
+
+}
+
+@media(min-width:600px){
+
+
+	.Logo {
+
+	 	display: block;
+	}
+
+
+	.Menu  {
+
+
+		width: 80%;
+
+	}
+
+
+	.Menu ul a {
+
+		font-size: 23px;
+
+	}
+
+
+	.Art1_Cuerpo h3 {
+
+    	text-align: center;
+
+	}
+
+	/*-------------Art4--------------*/
+
+	.Art4_Hijo1 {
+
+		margin-top: 5%;
+
+	}
+
+	.Hijo1_text3 {
+    	padding-top: 3%;
+	}
+
+			/*-----------CUERPO mision------------*/
+
+			.Seccion_Mision{
+
+				height: 100%;
+				background-color: white;
+				background-image: url("../images/fondoNosotros.jpg");
+				background-repeat: no-repeat;
+				background-size: 100% 110%;
+				background-position: top;
+
+			}
+
+			.Mision_CajaTexto{
+
+				padding-left: 15%;
+				padding-right: 15%;
+				padding-top: 3%;
+				text-align: left;
+			}
+
+			.Mision_CajaTexto1{
+
+				font-size: 43px;
+				padding-top: 20px;
+			}
+
+			.Mision_CajaTexto2{
+
+				font-family:anton_regular;
+				font-size: 71px;
+
+				padding-top: 50px;
+				padding-bottom: 55px;
+
+			}
+
+			.Mision_CajaTexto3{
+
+				font-size: 27px;
+
+			}
+
+			.Seccion_Valores{
+
+				height: 100%;
+				background-color: white;
+
+			}
+
+
+			.Valores_CajaTexto{
+
+				padding-left: 15%;
+				padding-right: 15%;
+				text-align: left;
+
+			}
+
+			.Valores_CajaTexto1{
+
+				font-family:anton_regular;
+				font-size: 71px;
+
+				padding-top: 5%;
+				padding-bottom: 48px;
+
+			}
+
+			.Valores_CajaTexto2{
+
+				font-size: 27px;
+
+			}
+
+
+			.CajaEquipo{
+
+				height: 70%;
+				padding-top:5%;
+				padding-left: 10%;
+				padding-right: 10%;
+				background-color: grey;
+				text-align: center;
+			}
+
+			.Caja_Erick, .Caja_Sonia, .Caja_Chanax{
+
+				height: 100%;
+				width: 30%;
+				display:block;
+				margin-right: 1%;
+				background-color: red;
+			}
+
+
+}
+
+@media(min-width:768px){
+
+	/*------------Art4-----------------*/
+
+
+	.Hijo1_text3 {
+
+    	padding-top: 1%;
+	}
+
+	.Art4_Hijo2 {
+
+    	height: 52%;
+
+	}
+
+}
+
+@media(min-width:992px){
+
+	/*----------Articulo 4----------------------------*/
+
+
+
+
+
+	.Art4_Hijo1{
+
+		margin-top: 11%;
+		float: right;
+		width: 30%;
+		height:55%;
+
+	}
+
+
+	.Art4_Hijo2{
+
+		width: 70%;
 		height: 100%;
-		background-color: white;
-		background-image: url("../images/fondoNosotros.png");
-		background-repeat: no-repeat;
-		background-size: 100% 110%;
-		background-position: top;
+		margin-right: 30%;
+		text-align: right;
+		display: block;
+	}
+
+	/*-------imagenes---------*/
+	#Hijo1_img p{
+
+		text-align:unset;
 
 	}
 
-	.Mision_CajaTexto{
+	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4{
 
-		padding-left: 15%;
-		padding-right: 15%;
-		padding-top: 3%;
-	}
-
-	.Mision_CajaTexto1{
-
-		font-size: 19px;
-		padding-top: 18px;
-	}
-
-	.Mision_CajaTexto2{
-
-		font-family:anton_regular;
-		font-size: 45px;
-
-		padding-top: 28px;
-		padding-bottom: 28px;
-
-	}
-
-	.Mision_CajaTexto3{
-
-		font-size: 27px;
-
-	}
-
-	.Seccion_Valores{
-
-		height: 100%;
-		background-color: white;
-		color: #35F8FC;
+		margin-right: 1%;
 
 	}
 
 
-	.Valores_CajaTexto{
+	/*-------textos---------*/
 
-		padding-left: 15%;
-		padding-right: 15%;	
+	.Hijo1_text1{
 
+		font-size: 57px;
+		padding-top: 20%;
 	}
 
-	.Valores_CajaTexto1{
 
-		font-family:anton_regular;
-		font-size: 45px;
+	.Hijo1_text2{
 
-		padding-top: 19%;
-		padding-bottom: 48px;
-
-	}
-
-	.Valores_CajaTexto2{
-
-		font-size: 27px;
-
-	}
-
-	footer{
-
-		height: 50%;
-		background-color: yellow;
-
-	}
-
-	.CajaEquipo{
-
-		height: 70%;
-		padding-top:5%;
-		padding-left: 10%;
-		padding-right: 10%;
-		background-color: grey;
 		text-align: center;
 	}
 
-	.Caja_Erick, .Caja_Sonia, .Caja_Chanax{
+	.Hijo1_text3{
 
-		height: 100%;
-		width: 30%;
-		display: inline-block;
-		margin-right: 1%;
-		background-color: red;
+		text-align: center;
+
+	}
+
+}
+
+@media(min-width:1182px){
+
+	/*---------Art4---------*/
+
+	.Art3_Cuerpo1 {
+	    width: 74%;
+	    height: 46%;
+	    padding-left: 12%;
+	    padding-right: 12%;
+	    padding-bottom: 1%;
+	}
+
+	.Art3_Cuerpo2 {
+	    width: 74%;
+	    height: 43%;
+	    padding-left: 12%;
+	    padding-right: 12%;
+	    padding-bottom: 0%;
+	    padding-top: 0%;
+	}
+
+	.Hijo1_text1 {
+
+    	font-size: 68px;
+
+	}
+
+	.Hijo1_text2 {
+
+    	padding-top: 3%;
+	}
+
+	.Hijo2_img1, .Hijo2_img2, .Hijo2_img3, .Hijo2_img4 {
+
+    	height: 98%;
+	}
+
+}
+
+@media(min-width:1294px){
+
+
+	/*--------------Art4-------------------*/
+
+	.Hijo1_text1 {
+    	font-size: 74px;
+	}
+
+	.Hijo1_text2 {
+    	font-size: 40px;
+	}
+
+	.Hijo1_text3 {
+
+    	padding-top: 5%;
 	}
 
 }
