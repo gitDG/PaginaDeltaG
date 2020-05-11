@@ -1594,6 +1594,7 @@ footer {
 		padding-left: 1%;
 		padding-right: 1%;
 		padding-bottom: 3%;
+		padding-top: 9%;
 
 	}
 
@@ -1617,6 +1618,7 @@ footer {
 
 	    font-size: 28px;
 	    text-align: center;
+	    padding-top: 20%;
 	}
 
 
@@ -1752,6 +1754,8 @@ footer {
 
 	    font-size: 30px;
 	    text-align: left;
+	    padding-top: 3%;
+
 	}
 
 	.Art3_titulo2{
@@ -1760,8 +1764,10 @@ footer {
 		font-size: 19px;
 	}
 
+	.Art3_Cuerpo1 {
 
-
+	    padding-top: 4%;
+	}
 
 
 }
