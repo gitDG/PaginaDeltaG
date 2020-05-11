@@ -1613,10 +1613,18 @@ footer {
 		font-size: 25px;
 	}
 
+	.Art3_titulo {
+
+	    font-size: 28px;
+	    text-align: center;
+	}
+
+
 
 	 .Art3_titulo2{
 
 		font-size: 15px;
+		text-align: center;	
 	}
 
 
@@ -1739,11 +1747,22 @@ footer {
 
 	}
 
+	/*---------------------------------------*/	
+	.Art3_titulo {
+
+	    font-size: 30px;
+	    text-align: left;
+	}
 
 	.Art3_titulo2{
 
+		text-align: left;
 		font-size: 23px;
 	}
+
+
+
+
 
 }
 
@@ -1892,6 +1911,7 @@ footer {
 		font-size: 20px;
 
 	}
+
 
 
 }
