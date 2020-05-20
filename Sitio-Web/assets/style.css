@@ -616,6 +616,7 @@ section {
 
 
 	background-color: rgb(29,29,29);
+
 }
 
 
@@ -1634,6 +1635,17 @@ footer {
 		text-align: center;	
 	}
 
+	.Cuerpo1_ContHijo1{
+
+
+	background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%);
+	}
+
+ 	.Cuerpo2_ContHijo2{
+
+	background-image: linear-gradient(to left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.8) 100%);
+
+ 	}
 
 
 	/*------------footer--------------------------------------------*/
@@ -1783,6 +1795,18 @@ footer {
 	    padding-top: 4%;
 	}
 
+
+	.Cuerpo1_ContHijo1{
+
+		background-image: none;
+
+	}
+
+ 	.Cuerpo2_ContHijo2{
+
+		background-image: none;
+
+ 	}
 
 
 }

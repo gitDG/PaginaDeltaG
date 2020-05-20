@@ -1,0 +1,278 @@
+body {
+
+	margin: 0;
+	font-size: 100%;
+	background-color: #fff;
+	
+}
+
+/* ----- Estilo Encabezado ----- */
+.ContHead {
+
+	position: fixed;
+	width: 100%;
+	background: rgba(0,0,0,0.8);
+
+}
+
+.Logo {
+
+	padding-top: 10px;
+	display: inline-block;
+	width: 10%;
+
+}
+
+.Logo img {
+
+	margin-left: 30%;
+
+}
+
+.NavBar {
+
+	display: inline-block;
+	width: 75%;
+
+}
+
+.Menu ul {
+
+	display: flex;
+	margin: 0;
+	list-style: none;
+	justify-content: center;
+
+}
+
+.Menu li a {
+
+	font-family: 'Stylish', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.Menu ul li {
+
+	padding: 20px;
+	padding-bottom: 5px;
+	padding-top: 10px;
+
+}
+
+header .NavBar .Menu li:hover{
+
+	background: rgba(255,255,255,0.2);
+
+}
+
+/* ----- Estilo Cuerpo -----*/
+
+/* ----- Prueva ----- */
+.PrincipalPro {
+
+	width: 100%;
+	height: 730px;
+	background-image: url(../images/ProTit.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.PrincipalPro h1 {
+
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 120px;
+	color: #fff;
+	padding-top: 115px;
+
+}
+
+.PrincipalPro p {
+
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	padding-top: 20px;
+
+}
+
+#BordeTit, #BordeTit2 {
+
+	text-align: center;
+	width: 15%;
+	margin-left: 42%;
+	border-bottom:2px solid #fff;
+
+}
+
+#BordeTit2 {
+
+	border-color: black;
+	margin-bottom: 40px;
+
+}
+
+.Servicios {
+
+	margin-left: 5px;
+	width: 100%;
+	background: #fff;
+
+}
+
+.Servicios h1 {
+
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	padding-top: 60px;
+
+}
+
+.Service, .Beneficio, .Beneficio2, .Beneficio3 {
+
+	margin-top: 25px;
+	display: inline-block;
+	width: 50%;
+	height: 500px;
+
+}
+
+.Service {
+
+	background: rgba(242,242,242,1);
+	overflow: hidden;
+
+}
+
+.Service h1 {
+
+	margin: 0;
+	margin-top: 75px;
+
+
+}
+
+.Service p {
+
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+
+}
+
+#btnContacto{
+
+	text-decoration: none;
+	width: 20%;
+	height: 20px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	border-radius: 18px;
+	border-color: black;
+
+}
+
+.Beneficio {
+
+	width: 49%;
+	background-image: url(../images/ProWeb.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+
+}
+
+.Beneficio2 {
+
+	width: 49%;
+	background-image: url(../images/SoftEmpre.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+
+}
+
+.Beneficio3 {
+
+	width: 49%;
+	background-image: url(../images/Soporte.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+
+}
+
+
+/* ----- Pie De Página ----- */
+.MenuPie {
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	background: rgba(242,242,242,1);
+
+}
+
+.InfoMP {
+
+	margin-left: 15%;
+	width: 70%;
+	height: 190px;
+	border-top: 2px solid rgba(0,0,0,0.4);
+	border-bottom: 2px solid rgba(0,0,0,0.4);
+	padding-left: 15px;
+
+}
+
+.IMP-C1, .IMP-C2, .IMP-C3 {
+
+	display: inline-block;
+	width: 32%;
+	height: 175px;
+
+}
+
+.footer {
+
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+	background: rgba(242,242,242,1);
+
+}
+
+#EduFont-A {
+
+	color: rgb(12,1,255);
+	font-family: 'Stylish', sans-serif;
+
+
+}
+
+#EduFont-B {
+
+	color: rgb(134,218,80);
+	font-family: 'Stylish', sans-serif;
+
+
+}
+
+#lineado {
+
+	font-size: 0;
+
+}
