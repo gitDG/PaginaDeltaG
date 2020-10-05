@@ -37,11 +37,6 @@ p{
 	font-family: 'Roboto Slab', serif;
 }
 
-#EduFont-C {
-
-	color: white;
-}
-
 /* ----- Diseño Header ----- */
 header {
 
@@ -616,7 +611,6 @@ section {
 
 
 	background-color: rgb(29,29,29);
-
 }
 
 
@@ -711,7 +705,7 @@ section {
 	width:45%;
 	height: 50%;
 	margin-top: 8%;
-	border: 3px outset #26FF29;
+	border: 3px outset rgb(12,1,255);
 	text-align: center;
 	  /*
 	  background-image:
@@ -825,7 +819,7 @@ section {
 .ContHijo1_titulo1, .ContHijo1_titulo2{
 
 	font-size: 31px;
-	color:  #26FF29;
+	color: #2008FF;
 	font-family: galdeano_regular;
 	font-weight: bold;
 }
@@ -1435,7 +1429,7 @@ footer {
 
 	.Art1_Cuerpo h3{
 
-		font-size: 17px;
+		font-size: 16px;
 
 	}
 
@@ -1600,7 +1594,6 @@ footer {
 		padding-left: 1%;
 		padding-right: 1%;
 		padding-bottom: 3%;
-		padding-top: 10%;
 
 	}
 
@@ -1620,32 +1613,11 @@ footer {
 		font-size: 25px;
 	}
 
-	.Art3_titulo {
-
-	    font-size: 28px;
-	    text-align: center;
-	    padding-top: 20%;
-	}
-
-
 
 	 .Art3_titulo2{
 
-		font-size: 12px;
-		text-align: center;	
+		font-size: 15px;
 	}
-
-	.Cuerpo1_ContHijo1{
-
-
-	background-image: linear-gradient(to right, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%);
-	}
-
- 	.Cuerpo2_ContHijo2{
-
-	background-image: linear-gradient(to left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.8) 100%);
-
- 	}
 
 
 	/*------------footer--------------------------------------------*/
@@ -1761,53 +1733,17 @@ footer {
 
 	/*------------------art3-----------------------*/
 
-	.Cuerpo1_ContHijo1{
-
-		border: 3px outset rgb(12,1,255);
-
-	}
-
-
 	.ContHijo1_titulo1, .ContHijo1_titulo2{
 
 		font-size: 31px;
-		color: #2008FF;
 
 	}
 
-	/*---------------------------------------*/	
-	.Art3_titulo {
-
-	    font-size: 30px;
-	    text-align: left;
-	    padding-top: 3%;
-
-	}
 
 	.Art3_titulo2{
 
-		text-align: left;
-		font-size: 19px;
+		font-size: 23px;
 	}
-
-	.Art3_Cuerpo1 {
-
-	    padding-top: 4%;
-	}
-
-
-	.Cuerpo1_ContHijo1{
-
-		background-image: none;
-
-	}
-
- 	.Cuerpo2_ContHijo2{
-
-		background-image: none;
-
- 	}
-
 
 }
 
@@ -1956,7 +1892,6 @@ footer {
 		font-size: 20px;
 
 	}
-
 
 
 }
@@ -2120,6 +2055,8 @@ footer {
 		font-size: 23px;
 
 	}
+
+
 
 
 }
