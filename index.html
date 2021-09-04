@@ -10,7 +10,7 @@
 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<meta name="keywords" content="cambio en guatemala,guatemala,DeltaG">
+		<meta name="keywords" content="cambio en guatemala,guatemala,DeltaG,DeltaG Educación">
 
 		<!-- Archivos CSS -->
 		<link rel="stylesheet" type="text/css" href="assets/style.css">
@@ -43,11 +43,11 @@
 
 					<ul>
 
-						<li><a href="http://www.deltagweb.com">Inicio</a></li>
+						<li class="li-Inicio"><a href="http://www.deltagweb.com">Inicio</a></li>
 
 						<li class="li-Nosotros"><a href="assets/Nosotros.html">Nosotros</a></li>
 
-						<li>
+						<li class="li-Educacion">
 							<a href="assets/Educacion.html">
 								<span id="EduFont-A">Δ</span><span id="EduFont-B">G</span>educación
 							</a>
@@ -81,7 +81,7 @@
 				</div>
 
 				<div class="Art1_Cuerpo">
-					<p>En DeltaG creemos que la educación debe estar al alcance de todos, por eso desarrollamos el programa ΔG-educación el cual pretende incentivar la educación y promover el desarrollo social e intelectual haciendo uso de la tecnología.
+					<p>En DeltaG creemos que la educación debe estar al alcance de todos, por eso desarrollamos el proyecto ΔG-educación el cual pretende incentivar la educación y promover el desarrollo social e intelectual haciendo uso de la tecnología.
 					</p>
 				</div>
 
@@ -99,11 +99,11 @@
 
 
 						<div class="TargetF1C1">
-							<a href="http://www.deltagweb.com">
+							<a href="assets/Inscri-MatePU.html">
 								<div class="InfoTF1C1">
 									<p>Matemática<br> Pre-Universitaria</p>
 									<div class="infTF1C1">
-										<p><br>Proximamente</p>
+										<p><br>Próximamente</p>
 									</div>
 
 								</div>
@@ -116,7 +116,7 @@
 
 									<p>Principios<br> De Programación</p>
 									<div class="infTF1C2">
-										<p><br>Proximamente</p>
+										<p><br>Próximamente</p>
 									</div>
 
 								</div>
@@ -299,10 +299,7 @@
 						<div class="hijo1_2">
 							<div class="extra1" >
 								<p>
-
-										contacto@deltagweb.com <br><br>
-
-										23-20-2233
+										contacto@deltagweb.com
 
 								</p>
 							</div>
@@ -319,11 +316,14 @@
 
 								<p >
 									<br>
-										<span id="EduFont-A">Δ</span><span id="EduFont-B">G</span> Pro <br><br>
+										<span id="EduFont-A">Δ</span><span id="EduFont-B">G</span> Pro  (Próximamente)<br><br>
 
 										<span id="EduFont-A">Δ</span><span id="EduFont-B">G</span> Educacion <br><br>
 
-										<span id="EduFont-A">Δ</span><span id="EduFont-B">G</span> Contacto <br><br>
+										<a href="https://www.facebook.com/DeltGT">
+											<span id="EduFont-A">Δ</span><span id="EduFont-B">G</span> <span id="txtContact"> Contacto <br><br> </span>
+										</a>
+
 								</p>
 							</div>
 						</div>
@@ -337,10 +337,10 @@
 								<!-- data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-duration="800"-->
 								<p>
 									<br>
-									Cursos<br><br>
+									Cursos  (Próximamente)<br><br>
 
 
-										Blog <br><br>
+									<!-- Blog <br><br> -->
 
 								</p>
 							</div>
@@ -352,7 +352,7 @@
 		<!-- Píe De Página -->
 		<footer>
 			<div class="ContPiePagina">
-				<p>© 2020 Derechos reservados  <span id="DeltaG"><a href="http://www.deltagweb.com">DeltaG</a></span></p>
+				<p>©2021 Derechos reservados  <span id="DeltaG"><a href="http://www.deltagweb.com">DeltaG</a></span></p>
 			</div>
 		</footer>
 
@@ -364,4 +364,33 @@
 		</script>
 
 	</body>
+	<!-- Messenger plugin del chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your plugin del chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+	 <!-- Script Chat Messenger Pág. FB -->
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "220825442041385");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
 </html>

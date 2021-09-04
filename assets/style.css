@@ -92,6 +92,10 @@ header {
 	display: none;
 }
 
+.li-Educacion, .li-Inicio {
+	display: none;
+}
+
 header .NavBar .Menu li:hover{
 
 	background: rgba(134,218,80,0.9);
@@ -263,7 +267,7 @@ section {
 	left: -2%;
    margin-right: -5%;
    transform: translate(-5%, -95%);
-	background-image: url("../images/img_educacion2.jpg");
+	background-image: url("../images/img_educacion3.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-position:center;
@@ -746,9 +750,9 @@ section {
 
 .hijo1_1{
 
-	background-image: url("../images/Logo.png");
+	background-image: url("../images/Logotipo.png");
 	background-repeat: no-repeat;
-	background-size: 60% 60%;
+	background-size: 90% 100%;
 	background-position: center;
 }
 
@@ -797,6 +801,10 @@ section {
 	width: 100%;
 	font-size: 16px;
 	font-family: robot_condensed;
+	color: white;
+}
+
+#txtContact {
 	color: white;
 }
 
