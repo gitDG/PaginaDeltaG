@@ -1,0 +1,488 @@
+.pepe {
+	margin-left: 10%;
+}
+
+body {
+
+	margin: 0;
+	font-size: 100%;
+	/*background: rgba(242,242,242,1);*/
+	background: #fff;
+
+}
+
+header {
+
+	position: fixed;
+	width: 100%;
+	height: 85px;
+	background: rgba(0,0,0,0.8);
+
+}
+
+.Logo, .NavBar {
+
+	display: inline-block;
+
+}
+
+.Logo {
+
+	margin: 0;
+	padding-left: 3%;
+	width: 10%;
+
+}
+
+.NavBar {
+
+	width: 72%;
+
+}
+
+.EncabezadoInscri {
+
+	background: black;
+
+}
+
+.TituloIntro {
+
+	padding-top: 100px;
+
+}
+
+.VideoIntro {
+
+	display: inline-block;
+	padding-left: 5%;
+	width: 55%;
+
+}
+
+.btnInscripcion {
+
+	display: inline-block;
+	width: 35%;
+
+}
+
+.DescripcionCurso {
+
+	margin-bottom: 2%;
+	margin-top: 3%;
+	margin-left: 5%;
+	width: 90%;
+	border-top: 2px solid black;
+	border-bottom : 2px solid black;
+
+}
+
+.TemasCurso {
+
+	padding-bottom: 30px;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	margin-left: 5%;
+	width: 90%;
+
+}
+
+.Bloque1, .Bloque2, .Bloque3, .Bloque4, .Bloque5, .Bloque6, .Bloque7 {
+
+	margin-left: 10%;
+	margin-bottom: 10px;
+	width: 80%;
+	background: black;
+
+}
+
+.BlocName {
+
+	display: inline-block;
+	background: orange;
+	width: 30%;
+
+}
+
+.Name {
+
+	display: inline-block;
+	width: 69%;
+
+}
+
+.MenuPie {
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	background: rgba(242,242,242,1);
+
+}
+
+.InfoMP {
+
+	margin-left: 15%;
+	width: 70%;
+	height: 190px;
+	border-top: 2px solid rgba(0,0,0,0.4);
+	border-bottom: 2px solid rgba(0,0,0,0.4);
+	padding-left: 15px;
+
+}
+
+.IMP-C1, .IMP-C2, .IMP-C3 {
+
+	display: inline-block;
+	width: 32%;
+	height: 175px;
+
+}
+
+.footer {
+
+	width: 100%;
+	text-align: center;
+	background: rgba(242,242,242,1);
+
+}
+
+.Logo img {
+
+	margin: 0;
+	height: 50%;
+	padding: 20%;
+
+}
+
+.NavBar .Menu ul {
+
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+
+}
+
+.NavBar .Menu li a {
+
+	display: block;
+	text-align: center;
+	font-family: 'Stylish', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+.NavBar .Menu li {
+
+	text-align: center;
+	padding: 20px;
+
+}
+
+.li-Nosotros {
+	display: none;
+}
+
+.Pie-Derecho a {
+
+	font-family: 'Stylish', sans-serif;
+	font-size: 140%;
+	text-decoration: none;
+	font-weight: bold;
+	color: blue;
+
+}
+
+.IMP-C1 p, .IMP-C2 p, .IMP-C3 p {
+
+	font-family: 'Stylish', sans-serif;
+	font-size: 14px;
+
+}
+
+.TituloIntro h1 {
+
+	color: #fff;
+	padding-left: 5%;
+	font-family: 'Stylish', sans-serif;
+	font-size: 40px;
+
+}
+
+.DescripcionCurso h1 {
+
+	color: black;
+	font-family: 'Stylish', sans-serif;
+	font-size: 25px;
+
+}
+
+.DescripcionCurso p {
+
+	color: black;
+	font-family: 'Stylish', sans-serif;
+	font-size: 19px;
+	text-align: justify;
+
+}
+
+.TemasCurso h1{
+
+	color: black;
+	font-family: 'Stylish', sans-serif;
+	font-size: 25px;
+
+}
+
+.BlocName p {
+
+	padding-top: 15px;
+	height: 80%;
+	font-family: 'Stylish', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+.Name p {
+
+	color: #fff;
+	font-family: 'Stylish', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+
+.BlocName a, .Name a {
+
+	text-decoration: none;
+
+}
+
+#EduFont-A {
+
+	color: rgb(12,1,255);
+
+}
+
+#EduFont-B {
+
+	color: rgb(134,218,80);
+
+}
+header .NavBar .Menu li:hover{
+
+	background: rgba(255,255,255,0.2);
+
+}
+
+/*
+.Bloque1:hover, .Bloque2:hover, .Bloque3:hover, .Bloque4:hover, .Bloque5:hover, .Bloque6:hover, .Bloque7:hover {
+
+	cursor: pointer;
+	width: 70%;
+	box-shadow: 5px 5px 15px #666;
+
+}
+*/
+
+/* --------- Diseño Footer 1 -------------------------------- */
+.footer {
+
+	height: 100%;
+	width: 100%;
+   display: inline-block;
+	background-color: #279454;
+	background-image: linear-gradient(180deg, #131D14 0%, #000000 24%, #000000 49%, #000000 75%, #000000 100%);
+}
+
+.footer_Padre{
+
+	width: 100%;
+	height:100%;
+	background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+	background-image: url("../images/footer_img.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:top;
+}
+
+.footer_img{
+
+	width: 100%;
+	height:30%;
+}
+
+.footer_hijo1, .footer_hijo2{
+
+	width: 49%;
+	height: 70%;
+	display: inline-block;
+	vertical-align:top;
+}
+
+/*--------------footer hijo1--------------------*/
+.hijo1_1, .hijo1_2{
+
+	height: 50%;
+	width: 100%;
+}
+
+.hijo1_1{
+
+	background-image: url("../images/Logotipo.png");
+	background-repeat: no-repeat;
+	background-size: 90% 100%;
+	background-position: center;
+}
+
+.hijo1_2{
+
+	position: relative;
+}
+
+.extra1{
+
+	position: absolute;
+	bottom: 30%;
+	left: 9%;
+	font-family: robot_condensed;
+	font-size: 16px;
+	color: white;
+}
+
+/*--------------footer hijo2--------------------*/
+.hijo2_1, .hijo2_2{
+
+	height: 100%;
+	width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.hijo2_1_titulo1,.hijo2_1_titulo2{
+
+	margin-top: 10%;
+	width: 100%;
+	height: 25%;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	border-bottom: 2px solid white;
+	font-size: 28px;
+	font-family: robot_thin;
+	font-weight: bold;
+	color: white;
+}
+
+.cont_1, .cont_2{
+
+	height: 69%;
+	width: 100%;
+	font-size: 16px;
+	font-family: robot_condensed;
+	color: white;
+}
+
+#txtContact {
+	color: white;
+}
+
+/* -----  Footer final --------------------------------------- -----*/
+footer {
+
+	width: 100%;
+	background: black;
+	color: black;
+	text-align: center;
+}
+
+.ContPiePagina {
+
+	width: 100%;
+}
+
+.ContPiePagina p {
+
+	margin: 0;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+}
+
+#By {
+
+	font-size: 10px;
+}
+
+#DeltaG {
+
+	text-decoration: none;
+}
+
+.ContPiePagina a {
+
+	color: rgb(161,188,59);
+}
+
+
+/* Responsive Monitores */
+@media (max-width: 1124px){
+
+}
+
+@media(max-width: 760px){
+
+
+}
+
+@media (max-width: 420px){
+
+
+	.IMP-C2, .IMP.C1 {
+
+		padding: 20px;
+
+	}
+
+	.IMP-C3 {
+
+		display: block;
+		display: none;
+
+	}
+
+}
+
+@media (max-width: 320px){
+
+	.Menu{
+
+		display: inline;
+
+	}
+
+
+	.IMP-C2, .IMP.C1 {
+
+		padding: 20px;
+
+	}
+
+	.IMP-C3 {
+
+		display: block;
+		display: none;
+
+	}
+
+}
